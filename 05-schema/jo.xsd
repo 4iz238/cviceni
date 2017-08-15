@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified"
+    attributeFormDefault="qualified" xmlns="http://vse.cz/xmlkurz"
+    targetNamespace="http://vse.cz/xmlkurz">
+    <xs:element name="obj" type="obj"/>
+    <xs:complexType name="obj">
+        <xs:sequence>
+            <xs:element name="zak" type="zak"/>
+            <xs:element name="dod" type="dod"/>
+            <xs:element name="polozky" type="polozky"/>
+        </xs:sequence>
+        <xs:attribute name="zaplaceno" type="xs:boolean" use="required"/>
+        <xs:attribute ref="zaplaceno2" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="zak">
+        <xs:sequence>
+            <xs:element name="adresa" type="adresa_nemecka"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="adresa_ceska">
+        <xs:sequence>
+            <xs:element name="doceska"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="dod">
+        <xs:sequence>
+            <xs:element name="adresa" type="adresa_ceska"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="adresa_nemecka">
+        <xs:sequence>
+            <xs:element name="donemecka"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="doceska"> </xs:complexType>
+    <xs:complexType name="donemecka"> </xs:complexType>
+    <xs:complexType name="polozky">
+        <xs:sequence>
+            <xs:element ref="polozka" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="polozka">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kod" type="xs:string"> </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+    <xs:attribute name="zaplaceno2" type="xs:boolean"/>
+
+</xs:schema>

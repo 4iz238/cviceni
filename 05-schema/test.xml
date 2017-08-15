@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kurz:obj xmlns:kurz="http://vse.cz/xmlkurz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://vse.cz/xmlkurz jo.xsd" kurz:zaplaceno="true" kurz:zaplaceno2="true">
+    <zak>
+        <adresa>
+            <donemecka/>
+        </adresa>
+    </zak>
+    <dod>
+        <adresa>
+            <doceska/>
+        </adresa>
+    </dod>
+    <polozky>
+        <kurz:polozka>
+            <kod/>
+        </kurz:polozka>
+        <kurz:polozka>
+            <kod/>
+        </kurz:polozka>
+    </polozky>
+</kurz:obj>

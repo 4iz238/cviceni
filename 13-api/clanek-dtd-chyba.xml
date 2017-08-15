@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!DOCTYPE clanek SYSTEM "clanek.dtd">
+<clanek>
+  <zahlavi>
+    <autor>Jiří Kosek</autor>
+    <rubrika>Aktuality</rubrika>
+    <nazev>EU chce použít XML při rozvoji e-businessu</nazev>
+  </zahlavi>
+  <perex>Evropská komise si nechala vypracovat zprávu, která se zabývá
+možnostmi rozvoje elektronického obchodování zejména pro malé a
+střední podnikatele. Výsledky studie možná někoho překvapí --
+e-business se bude rozvíjet díky použití XML a lepších vyhledávacích
+technologií.</perex>
+  <para>Studii pro Evropskou komisi vypracovala společnost
+InfoConsult, která sdružuje několik předních evropských konzultantů,
+kteří se nezaměřují jen na podnikání, ale i na informační a
+komunikační technologie. Podle nich je dnes největší překážkou pro
+uplatnění e-businessu <em>obtížné vyhledávání informací</em>. Pokud
+hledáme na Internetu určitý výrobek, službu či firmu, musíme použít
+klasické vyhledávací služby, které nás zahltí stovkami, mnohdy
+neužitečných, odkazů.</para>
+  <para>Studie navrhuje vytvoření sady XML tagů, kterými by se na
+webových stránkách označovaly jednotlivé údaje o firmě, jejích
+výrobcích a službách. Současně by se měla vytvořit nová vyhledávací
+služba, která by "rozuměla" nově definovaným tagům. Pomocí této služby
+by pak každý mohl velice snadno nalézt informace nebo výrobek, který
+potřebuje.</para>
+  <para>Jistě krásná idea však vyvolává mnoho praktických otázek a
+problémů. První překážkou je zatím slabá podpora XML v běžně
+používaných prohlížečích. Doplnění speciálních tagů do současných
+webových stránek by nemuselo dělat dobře některým starším prohlížečům.
+Aby byl celý systém opravdu užitečný, musela by speciální tagy na
+svých stránkách používat většina firem. Jazyk XML zatím však autoři
+webových stránek neovládají a dosud není na trhu cenově dostupný
+WYSIWYG editor pro XML.</para>
+</clanek>

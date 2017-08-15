@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE katalog [
+<!ELEMENT katalog       (info,polozka+)>
+<!ELEMENT info          (firma,adresa,obdobi)>
+<!ELEMENT firma         (#PCDATA)>
+<!ELEMENT adresa        (#PCDATA)>
+<!ELEMENT obdobi        (#PCDATA)>
+<!ELEMENT polozka       (nazev,kategorie,cena,popis?,foto?)>
+<!ATTLIST polozka
+          kod   ID      #REQUIRED>
+<!ELEMENT nazev         (#PCDATA)>
+<!ELEMENT kategorie     (#PCDATA)>
+<!ELEMENT cena          (#PCDATA)>
+<!ELEMENT popis         (#PCDATA|b|br)*>
+<!ELEMENT b             (#PCDATA)>
+<!ELEMENT br            EMPTY>
+<!ELEMENT foto          EMPTY>
+<!ATTLIST foto
+          href  CDATA   #IMPLIED>
+]>
+<katalog>
+  <info>
+    <firma>Sony</firma>
+    <adresa>Nedůležitá, NěkdeTown</adresa>
+    <obdobi>zima 2001</obdobi>
+  </info>
+  
+  <polozka kod="mxd-d4">
+    <nazev>MiniDisc kombinovaný s CD přehrávačem</nazev>
+    <kategorie>MiniDisc</kategorie>
+    <cena>14990</cena>
+    <popis>Kombinace MD a CD pro pohodlné nahrávání z CD<br/>
+      přepis <b>vysokou rychlostí</b> z CD<br/>
+      nahrávání v LP režimu (4x)<br/>
+      20 bitový A/D převodník<br/>funkce Time Machine Recording<br/>
+      funkce sf Edit<br/>
+      nízká spotřeba v pohotovostním režimu</popis>
+  </polozka>
+  
+  <polozka kod="mds-ja555es_n">
+    <nazev>MiniDisc rekordér řady ES</nazev>
+    <kategorie>MiniDisc</kategorie>
+    <cena>34990</cena>
+    <popis>plné editační možnosti<br/>
+      zásuvková mechanika pro vkládání
+      MD<br/>
+      Pitch Control<br/>
+      proudový pulsní D/A převodník<br/>
+      24bitový A/D převodník<br/>
+      digitální filtr s proměnným
+      koeficientem<br/>
+      dvojitý transformátor s kruhovým jádrem
+      (R-Core)<br/>
+      systém DSP ATRAC typu R<br/>
+      digitální ovládání záznamové úrovně<br/>
+      dva optické digitální výstupy + koaxiální
+      digitální vstup<br/>
+      ovládání A1 (Control A1)<br/>
+      provedení <b>ve zlaté
+        barvě</b></popis>
+    <foto href="MDSJA555ES_N.jpg"/>
+  </polozka>
+  
+  <polozka kod="str-de135">
+    <nazev>Stereo receiver a zesilovač</nazev>
+    <kategorie>Receiver</kategorie>
+    <cena>5990</cena>
+    <popis>2 x 60W (DIN 4 Ohm)<br/>
+      3 audiovstupy<br/>tuner RDS/EON<br/>30 předvoleb, korekce tónu a
+      vyvážení<br/>digitální zpracování signálu - DSP<br/>
+      systémový dálkový ovladač </popis>
+    <foto href="STRDE135.jpg"/>
+  </polozka>
+  
+  <polozka kod="mz-r90">
+    <nazev>MD Walkman</nazev>
+    <kategorie>MiniDisc</kategorie>
+    <cena>12990</cena>
+    <popis>MD Walkman s možností záznamu<br/>
+      <b>nejmenší na světě</b><br/>
+      tělo přístroje z magnézia - výjimečně nízká hmotnost<br/>
+      Pop Up Eject mechanismus<br/>až 14,5 hodin záznamu / 
+      29 hodin reprodukce (Ni-MH + AA
+      baterie)<br/>
+      40 sec. ESP, Mega Bass<br/>
+      dálkové ovládání s podsvětleným LCD displejem (9 znaků) s editovacími
+      funkcemi<br/>možnost pojmenování skladeb a disku během záznamu<br/>
+      možnost monofonního záznamu v LP režimu
+      (až 160 min.)<br/>
+      LCD displej na přístroji<br/>
+      paměť pro často užívaná slova
+      (cca 40 výrazů po 10 znacích)<br/>možnost kopírování 
+      CD textu<br/>linkový
+      vstup / výstup, optický vstup, vstup pro mikrofon<br/>zásuvka pro
+      napájení ze sítě, AC adaptér, dobíjecí Ni-MH baterie</popis>
+    <foto href="MZR90.jpg"/>
+  </polozka>
+  
+  <polozka kod="ss-mb215">
+    <nazev>3pásmové reproduktory</nazev>
+    <kategorie>Reproduktory</kategorie>
+    <cena>3990</cena>
+    <popis>párové, regálové, 3pásmové<br/>
+      max. zatížitelnost 120W<br/>impedance 8 Ohm<br/>
+      bassreflex<br/>magneticky stíněné<br/>
+      odnímatelné mřížky<br/>
+      rozměry: 220 x 518 x 230 mm</popis>
+  </polozka>
+  
+  <polozka kod="ss-cr490">
+    <nazev>Sada AV reproduktorů</nazev>
+    <kategorie>Reproduktory</kategorie>
+    <cena>5990</cena>
+    <popis>2 x zadní, 1 x centrální, 2 pásmové<br/>
+      maximální zatížitelnost zadní: 120 W, centrální: 150 W<br/>
+      impedance 8 Ohm</popis>
+  </polozka>
+  
+</katalog>

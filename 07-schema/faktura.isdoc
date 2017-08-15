@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Invoice version="5.2" xmlns="http://isdoc.cz/namespace/invoice">
+  <DocumentType>1</DocumentType>
+  <ID>20090001</ID>
+  <UUID>20090001-0000-0000-0000-000000000000</UUID>
+  <IssueDate>2009-03-18</IssueDate>
+  <TaxPointDate>2009-03-18</TaxPointDate>
+  <LocalCurrencyCode>CZK</LocalCurrencyCode>
+  <CurrRate>1</CurrRate>
+  <RefCurrRate>1</RefCurrRate>
+  <AccountingSupplierParty>
+    <Party>
+      <PartyIdentification>
+        <UserID/>
+        <CatalogFirmIdentification/>
+        <ID>71612998</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name>Ing. Jiří Chocholoušek</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName>Podolská</StreetName>
+        <BuildingNumber>716/123</BuildingNumber>
+        <CityName>Praha 4</CityName>
+        <PostalZone>14700</PostalZone>
+        <Country>
+          <IdentificationCode>CZ</IdentificationCode>
+          <Name>Česká Republika</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <CompanyID>CZ7509230123</CompanyID>
+        <TaxScheme>VAT</TaxScheme>
+      </PartyTaxScheme>      
+    </Party>
+  </AccountingSupplierParty>
+  <AccountingCustomerParty>
+    <Party>
+      <PartyIdentification>
+        <UserID/>
+        <CatalogFirmIdentification/>
+        <ID>12345678</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name>První zkušební, a.s.</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName>Václavské náměstí</StreetName>
+        <BuildingNumber>42</BuildingNumber>
+        <CityName>Praha 1</CityName>
+        <PostalZone>11000</PostalZone>
+        <Country>
+          <IdentificationCode>CZ</IdentificationCode>
+          <Name>Česká Republika</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <CompanyID>CZ12345678</CompanyID>
+        <TaxScheme>VAT</TaxScheme>
+      </PartyTaxScheme>      
+    </Party>
+  </AccountingCustomerParty>
+  <InvoiceLines>
+    <InvoiceLine>
+      <ID>1</ID>
+      <LineExtensionAmount>70000</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>83300</LineExtensionAmountTaxInclusive>
+      <LineExtensionTaxAmount>13300</LineExtensionTaxAmount>
+      <UnitPrice>0</UnitPrice>
+      <UnitPriceTaxInclusive>0</UnitPriceTaxInclusive>
+      <ClassifiedTaxCategory>
+        <Percent>19</Percent>
+        <VATCalculationMethod>0</VATCalculationMethod>
+      </ClassifiedTaxCategory>
+      <Note><!-- tady rozšířit, aby šlo používat vnořené XHTML --></Note>
+      <Item>
+        <Description>Školení podepisování elektronických faktur</Description>
+      </Item>
+    </InvoiceLine>
+  </InvoiceLines>
+  <TaxTotal>
+    <TaxSubTotal>
+      <TaxableAmount>70000</TaxableAmount>
+      <TaxInclusiveAmount>83300</TaxInclusiveAmount>
+      <TaxAmount>13300</TaxAmount>
+      <AlreadyClaimedTaxableAmount>0</AlreadyClaimedTaxableAmount>
+      <AlreadyClaimedTaxAmount>0</AlreadyClaimedTaxAmount>
+      <AlreadyClaimedTaxInclusiveAmount>0</AlreadyClaimedTaxInclusiveAmount>
+      <DifferenceTaxableAmount>0</DifferenceTaxableAmount>
+      <DifferenceTaxAmount>0</DifferenceTaxAmount>
+      <DifferenceTaxInclusiveAmount>0</DifferenceTaxInclusiveAmount>
+      <TaxCategory>
+        <Percent>19</Percent>
+      </TaxCategory>
+    </TaxSubTotal>
+    <TaxAmount>13300</TaxAmount>
+  </TaxTotal>
+  <LegalMonetaryTotal>
+    <TaxExclusiveAmount>70000</TaxExclusiveAmount>
+    <TaxInclusiveAmount>83300</TaxInclusiveAmount>
+    <AlreadyClaimedTaxExclusiveAmount>0</AlreadyClaimedTaxExclusiveAmount>
+    <AlreadyClaimedTaxInclusiveAmount>0</AlreadyClaimedTaxInclusiveAmount>
+    <DifferenceTaxExclusiveAmount>0</DifferenceTaxExclusiveAmount>
+    <DifferenceTaxInclusiveAmount>0</DifferenceTaxInclusiveAmount>
+    <PaidDepositsAmount>0</PaidDepositsAmount>
+    <PayableAmount>83300</PayableAmount>
+  </LegalMonetaryTotal>
+  <PaymentMeans>
+    <Payment>
+      <PaidAmount>83300</PaidAmount>
+      <PaymentMeansCode>42</PaymentMeansCode>
+      <Details>
+        <PaymentDueDate>2009-04-01</PaymentDueDate>
+        <ID>123123123</ID>
+        <BankCode>0800</BankCode>
+        <Name>Česká spořitelna</Name>
+        <IBAN/>
+        <BIC/>
+        <VariableSymbol>20090001</VariableSymbol>
+      </Details>
+    </Payment>
+  </PaymentMeans>
+</Invoice>

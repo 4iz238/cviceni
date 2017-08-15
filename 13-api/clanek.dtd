@@ -1,0 +1,8 @@
+<!ELEMENT clanek  (zahlavi, perex?, para+)>
+<!ELEMENT zahlavi (rubrika?, nazev, autor?)>
+<!ELEMENT rubrika (#PCDATA)>
+<!ELEMENT nazev   (#PCDATA)>
+<!ELEMENT autor   (#PCDATA)>
+<!ELEMENT perex   (#PCDATA)>
+<!ELEMENT para    (#PCDATA|em)*>
+<!ELEMENT em      (#PCDATA)>

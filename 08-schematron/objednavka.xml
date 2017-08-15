@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cssTrans.css" type="text/css" ?>
+<objednávka xmlns="urn:x-eshop:document-schemas:purchase-order">
+	<adresa typ="doručovací">
+		<jméno>Jan Novák</jméno>
+		<ulice>Bělehradská 147</ulice>
+		<město>Praha 2</město>
+		<psč>120 01</psč>
+	</adresa>
+	<adresa typ="účtovací">
+		<jméno>Petra Nováková</jméno>
+		<ulice>Anglická 15</ulice>
+		<město>Praha 2</město>
+		<psč>120 02</psč>
+	</adresa>
+	<doprava>DPD</doprava>
+	<platba>dobírka</platba>
+	<přijata>2004-11-14</přijata>
+	<doručení>2004-11-19</doručení>
+	<položky>
+		<položka kód="a">
+			<název>Sekačka na trávu</název>
+			<počet mj="ks">1</počet>
+			<cena měna="CZK">2999</cena>
+			<popis>http://example.org/sekacka.html</popis>
+		</položka>
+		<položka kód="d">
+			<název>Travní semeno</název>
+			<počet mj="kg">2.5</počet>
+			<cena měna="USD">29999</cena>
+		</položka>
+	</položky>
+	<komentář>O dodávku mám zájem pouze v případě, že se jedná o trávu
+            v odrůdě konopí.
+    <p>Dále jsem se chtěl jsem se zeptat, zda je v tomto případě doprava zdarma?</p>
+	</komentář>
+</objednávka>

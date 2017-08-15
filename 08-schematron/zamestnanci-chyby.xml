@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Duplicitní identifikátory zaměstnanců -->
+<zamestnanci>
+ <zamestnanec id="101">
+  <jmeno>Jan</jmeno>
+  <prijmeni>Novák</prijmeni>
+  <email>jan@novak.cz</email>
+  <email>jan.novak@firma.cz</email>
+  <plat>25000</plat>
+  <narozen>1965-12-24</narozen>
+ </zamestnanec>
+ <zamestnanec id="102">
+  <jmeno>Petra</jmeno>
+  <prijmeni>Procházková</prijmeni>
+  <email>prochazkovap@firma.cz</email>
+  <plat>27500</plat>
+  <narozen>1974-03-21</narozen>
+ </zamestnanec>
+ <zamestnanec id="102">
+  <jmeno>Petra</jmeno>
+  <prijmeni>Procházková</prijmeni>
+  <email>prochazkovap@firma.cz</email>
+  <plat>600000</plat>
+  <narozen>1974-03-21</narozen>
+ </zamestnanec>
+</zamestnanci>

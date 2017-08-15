@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objednávka xmlns="http://example.com/objednavka">
+    <adresa typ="účtovací">
+        <jméno>adasd</jméno>
+        <ulice>adasd</ulice>
+        <město>adasd asdasd</město>
+        <psč>123 45</psč>
+    </adresa>
+    <adresa typ="účtovací">
+        <jméno>adasd</jméno>
+        <ulice>adasd</ulice>
+        <město>adasd</město>
+        <psč>123 45</psč>
+    </adresa>
+    <doprava>DPD</doprava>
+    <doprava>dobírka</doprava>
+    <platba>kartou</platba>
+    <přijata>2012-02-29</přijata>
+    <doručení>2012-03-10</doručení>
+    <položky>
+        <položka kód="123-456">
+            <název>adasd</název>
+            <počet mj="kg">3</počet>
+            <doprava>PPL</doprava>
+            <cena měna="CZK">1231</cena>
+        </položka>
+        <položka kód="123-456">
+            <název>adasd</název>
+            <počet mj="kg">3</počet>
+            <doprava>PPL</doprava>
+            <cena měna="CZK">1231</cena>
+        </položka>
+    </položky>
+    <komentář>
+        <p>Ahoj</p>
+    </komentář>
+</objednávka>

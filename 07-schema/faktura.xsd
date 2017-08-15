@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-2" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="urn:x-kosek:schemas:faktura:1.0" xmlns="urn:x-kosek:schemas:faktura:1.0"
+  elementFormDefault="qualified">
+
+  <xs:element name="faktura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="odberatel" type="subjektInfoTyp"/>
+        <xs:element name="dodavatel" type="subjektInfoTyp"/>
+        <xs:element ref="polozka" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="cislo" type="cisloFakturyTyp" use="required"/>
+      <xs:attribute name="vystaveni" type="xs:date" use="required"/>
+      <xs:attribute name="splatnost" type="xs:date" use="required"/>
+      <xs:attribute name="vystavil" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="subjektInfoTyp">
+    <xs:sequence>
+      <xs:element name="nazev" type="xs:string"/>
+      <xs:element name="adresa" type="xs:string"/>
+      <xs:element name="ico" type="icoTyp"/>
+      <xs:element name="dic" type="dicTyp"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="icoTyp">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{10}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="dicTyp">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{3}-\d{10}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="cisloFakturyTyp">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{4}/\d{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="polozka">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="popis" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="cena"/>
+        <xs:element name="dph" type="dphTyp"/>
+        <xs:element name="ks" type="xs:positiveInteger" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="cena">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="částkaTyp">
+          <xs:attribute name="mena" type="kódMěnyTyp"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="částkaTyp">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="kódMěnyTyp">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CZK"/>
+      <xs:enumeration value="DEM"/>
+      <xs:enumeration value="USD"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="dphTyp">
+    <xs:restriction base="xs:decimal">
+      <xs:enumeration value="22"/>
+      <xs:enumeration value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zamestnanci>
+ <zamestnanec_interni id="101">
+  <jmeno>Jan</jmeno>
+  <prijmeni>Novák</prijmeni>
+  <email>jan@novak.cz</email>
+  <email>jan.novak@firma.cz</email>
+  <narozen>1965-12-24</narozen>  
+  <plat>25000</plat>  
+ </zamestnanec_interni>
+ <zamestnanec_externi>
+  <jmeno>Petra</jmeno>
+  <prijmeni>Procházková</prijmeni>
+  <email>prochazkovap@firma.cz</email>
+  <narozen>1974-03-21</narozen>
+  <fakturovana_castka>27500</fakturovana_castka>  
+ </zamestnanec_externi>
+</zamestnanci>

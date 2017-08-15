@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faktura cislo="12/2000" vystaveni="2.2.2000" splatnost="16.2.2000">
+  <odberatel>
+    <nazev>Poučená, a.s.</nazev>
+    <adresa>Široká 21, Praha 1, 110 00</adresa>
+    <ico>0987654321</ico>
+    <dic>007-0987654321</dic>
+  </odberatel>
+  <dodavatel>
+    <nazev>XMLCompany, s.r.o.</nazev>
+    <adresa>Dlouhá 12, Praha 1, 110 00</adresa>
+    <ico>1234567890</ico>
+    <dic>007-1234567890</dic>
+  </dodavatel>
+  <polozka>
+    <popis>Analýza nasazení XML v podnikovém IS</popis>
+    <cena dph="5">50000</cena>
+  </polozka>
+  <polozka>
+    <popis>XML Editor - 10 licencí</popis>
+    <cena dph="5">128956</cena>
+  </polozka>
+  <polozka>
+    <popis>Notebook microMini</popis>
+    <cena dph="22">89500</cena>
+  </polozka>
+</faktura>

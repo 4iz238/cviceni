@@ -1,0 +1,21 @@
+<fo:root xmlns:fo='http://www.w3.org/1999/XSL/Format'>
+   <fo:layout-master-set> 
+     <fo:simple-page-master master-name="my-page"> 
+       <fo:region-body margin="1.5in 1in"/>  
+       <fo:region-before extent="1.5in" 
+                         padding="6pt 1in" 
+                         border-bottom="0.5pt silver solid"/> 
+     </fo:simple-page-master> 
+   </fo:layout-master-set> 
+
+   <fo:page-sequence master-reference="my-page"> 
+     <fo:static-content flow-name="xsl-region-before"  
+                        font="italic 10pt Times"> 
+        <fo:block>"Hello, world!" Example</fo:block> 
+     </fo:static-content> 
+     <fo:flow flow-name="xsl-region-body"> 
+        <fo:block>Hello, world!</fo:block> 
+     </fo:flow> 
+   </fo:page-sequence> 
+</fo:root>
+

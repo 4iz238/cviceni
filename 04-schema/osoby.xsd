@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="osoby">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="osoba" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jméno" type="xs:string"/>
+              <xs:choice>
+                <xs:element name="RČ" type="xs:string"/>
+                <xs:element name="pas" type="xs:string"/>
+                <xs:element name="SSN" type="xs:string"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

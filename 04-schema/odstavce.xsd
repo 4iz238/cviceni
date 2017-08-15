@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="odstavce">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="odstavec" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="pojem" type="xs:string"/>
+							<xs:element name="odkaz">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="url" type="xs:anyURI"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

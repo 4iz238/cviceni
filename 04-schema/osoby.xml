@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<osoby>
+  <osoba>
+    <jméno>Pepa Tuzemec</jméno>
+    <RČ>681203/0123</RČ>
+  </osoba>
+  <osoba>
+    <jméno>Pepa Cizinec</jméno>
+    <pas>1234567</pas>
+  </osoba>
+  <osoba>
+    <jméno>Pepa Rozvědčík</jméno>
+    <SSN>987654321</SSN>
+  </osoba>
+  <osoba>
+    <jméno>Pepa Pochybil</jméno>
+    <pas>1234567</pas>
+    <RČ>681203/0123</RČ>
+  </osoba>
+</osoby>
