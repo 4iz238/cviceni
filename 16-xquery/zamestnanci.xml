@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<zamestnanci>
+  <zamestnanec oc="1164">
+    <jmeno>Procházka Karel</jmeno>
+    <sef>2021</sef>
+  </zamestnanec>
+  <zamestnanec oc="1168">
+    <jmeno>Novotná Alena</jmeno>
+    <sef>2021</sef>
+  </zamestnanec>
+  <zamestnanec oc="1230">
+    <jmeno>Klíma Josef</jmeno>
+    <sef>1168</sef>
+  </zamestnanec>
+  <zamestnanec oc="1564">
+    <jmeno>Pinkas Josef</jmeno>
+    <sef>2021</sef>
+  </zamestnanec>
+  <zamestnanec oc="2021">
+    <jmeno>Kládová Adéla</jmeno>
+  </zamestnanec>
+</zamestnanci>
