@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <info>
+    <title>První pokusná kniha</title>
+    <subtitle>Uživatelská příručka</subtitle>
+    <author>
+      <personname><firstname>Jiří</firstname><surname>Kosek</surname></personname>
+    </author>
+    <copyright>
+      <year>2001</year>
+      <holder>První vydavatelská</holder>
+    </copyright>
+  </info>
+  <preface>
+    <title>Úvod</title>
+    <para>Odstavec textu.</para>
+    <para>...</para>
+  </preface>
+  <chapter>
+    <title>První kapitola</title>
+    <para>Text první kapitoly</para>
+    <para>...</para>
+  </chapter>
+  <chapter>
+    <info>
+      <title>Druhá kapitola</title>
+      <author>
+        <personname><honorific>Ing</honorific><firstname>Jan</firstname><surname>Novák</surname></personname>
+        <affiliation>
+          <orgname>Nějaká firma, a.s.</orgname>
+          <address><street>Dlouhá 10</street>
+<city>Praha 1</city>  <postcode>110 11</postcode></address>
+        </affiliation>
+      </author>
+    </info>
+    <para>Text druhé kapitoly</para>
+    <para>...</para>
+  </chapter>
+  <appendix>
+    <title>První příloha</title>
+    <para>Text přílohy</para>
+    <para>...</para>
+  </appendix>
+  <appendix>
+    <title>Druhá příloha</title>
+    <para>Text přílohy</para>
+    <para>...</para>
+  </appendix>
+</book>

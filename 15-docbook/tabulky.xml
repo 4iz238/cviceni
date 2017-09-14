@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <title>Kapitola s tabulkami</title>
+
+  <table>
+    <title>Pokusná tabulka</title>
+    <tgroup cols="3">
+      <colspec colwidth="4cm"/>
+      <colspec colwidth="2cm"/>
+      <colspec colwidth="10cm"/>
+      <thead>
+        <row>
+          <entry>Výstupní formát</entry>
+          <entry>Stylový jazyk</entry>
+          <entry>Potřebné nástroje</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>jedna HTML stránka</entry>
+          <entry>DSSSL</entry>
+          <entry>Jade</entry>
+        </row>
+        <row>
+          <entry>jedna HTML stránka</entry>
+          <entry>XSL</entry>
+          <entry>libovolný XSLT procesor</entry>
+        </row>
+        <row>
+          <entry>sada HTML stránek</entry>
+          <entry>DSSSL</entry>
+          <entry>Jade</entry>
+        </row>
+        <row>
+          <entry>sada HTML stránek</entry>
+          <entry>XSL</entry>
+          <entry>libovolný XSLT procesor</entry>
+        </row>
+        <row>
+          <entry>RTF</entry>
+          <entry>DSSSL</entry>
+          <entry>Jade</entry>
+        </row>
+        <row>
+          <entry>PDF</entry>
+          <entry>DSSSL</entry>
+          <entry>Jade+JadeTeX nebo Jade+Word+Distiller</entry>
+        </row>
+        <row>
+          <entry>PDF</entry>
+          <entry>XSL</entry>
+          <entry>libovolný XSLT procesor + FO procesor (např. PassiveTeX)</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+
+  <table>
+    <title>Tabulka se sloučenými buňkami</title>
+    <tgroup cols="3">
+      <colspec colname="c1" align="left"/>
+      <colspec colname="c2" align="char" char=","/>
+      <colspec colname="c3" align="char" char=","/>
+      <thead>
+        <row>
+          <entry morerows="1" align="center" valign="middle">Měsíc</entry>
+          <entry namest="c2" nameend="c3" align="center">Prodej zboží</entry>
+        </row>
+        <row>
+          <entry align="center">A</entry>
+          <entry align="center">B</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>Leden</entry>
+          <entry>865,54</entry>
+          <entry>16,3</entry>
+        </row>
+        <row>
+          <entry>Únor</entry>
+          <entry>917,7</entry>
+          <entry>8,1</entry>
+        </row>
+        <row>
+          <entry>Březen</entry>
+          <entry>1036,8</entry>
+          <entry>18,9</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+
+  <table>
+    <title>Tabulka s rámečkem, ale bez linek mezi buňkami</title>
+    <tgroup cols="3" colsep="0" rowsep="0">
+      <colspec align="left"/>
+      <colspec align="char" char=","/>
+      <colspec align="char" char=","/>
+      <tbody>
+        <row>
+          <entry>Leden</entry>
+          <entry>865,54</entry>
+          <entry>16,3</entry>
+        </row>
+        <row>
+          <entry>Únor</entry>
+          <entry>917,7</entry>
+          <entry>8,1</entry>
+        </row>
+        <row>
+          <entry>Březen</entry>
+          <entry>1036,8</entry>
+          <entry>18,9</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+
+  <table frame="topbot">
+    <title>Tabulka s linkou nahoře a dole</title>
+    <tgroup cols="3" colsep="0" rowsep="0">
+      <colspec align="left"/>
+      <colspec align="char" char=","/>
+      <colspec align="char" char=","/>
+      <tbody>
+        <row>
+          <entry>Leden</entry>
+          <entry>865,54</entry>
+          <entry>16,3</entry>
+        </row>
+        <row>
+          <entry>Únor</entry>
+          <entry>917,7</entry>
+          <entry>8,1</entry>
+        </row>
+        <row>
+          <entry>Březen</entry>
+          <entry>1036,8</entry>
+          <entry>18,9</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+
+  <table frame="topbot">
+    <title>Tabulka s linkou nahoře, dole a mezi sloupci</title>
+    <tgroup cols="3" colsep="1">
+      <colspec align="left"/>
+      <colspec align="char" char=","/>
+      <colspec align="char" char=","/>
+      <tbody>
+        <row>
+          <entry>Leden</entry>
+          <entry>865,54</entry>
+          <entry>16,3</entry>
+        </row>
+        <row>
+          <entry>Únor</entry>
+          <entry>917,7</entry>
+          <entry>8,1</entry>
+        </row>
+        <row>
+          <entry>Březen</entry>
+          <entry>1036,8</entry>
+          <entry>18,9</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+
+  <para>Odstavec textu, za kterým bude tabulka bez nadpisu.</para>
+
+  <informaltable>
+    <tgroup cols="3">
+      <colspec align="left"/>
+      <colspec align="char" char=","/>
+      <colspec align="char" char=","/>
+      <tbody>
+        <row>
+          <entry>Leden</entry>
+          <entry>865,54</entry>
+          <entry>16,3</entry>
+        </row>
+        <row>
+          <entry>Únor</entry>
+          <entry>917,7</entry>
+          <entry>8,1</entry>
+        </row>
+        <row>
+          <entry>Březen</entry>
+          <entry>1036,8</entry>
+          <entry>18,9</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+
+</chapter>

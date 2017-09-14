@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+<info>
+<title>Ukázka generování časového razítka</title>
+<pubdate>pubdate: <?dbtimestamp format="d.m.Y H:M:S"?></pubdate>
+<date>date: <?dbtimestamp?></date>
+</info>
+
+<chapter xml:lang="sk">
+<title>Pokusná kapitola</title>
+
+<para>Odstavec 1</para>
+<para>Default: <?dbtimestamp?> </para>
+<para>Čas: <?dbtimestamp format="d.m.Y H:M:S"?></para>
+<para>Čas: <?dbtimestamp padding="0" format="d.m.Y H:M:S"?></para>
+<para>Čas: <?dbtimestamp format="d.m.Y H:M:S" padding="0"?></para>
+<simplelist type="vert">
+<member>První položka</member>
+<member>Druhá<footnote>
+<para>poznámka pod čarou</para>
+</footnote> položka</member>
+<member>Třetí položka</member>
+</simplelist>
+<para>Konec</para>
+</chapter>
+
+<chapter xml:lang="en">
+<title>Pokusná kapitola</title>
+
+<para>Odstavec 1</para>
+<para>Default: <?dbtimestamp?> </para>
+<para>Čas: <?dbtimestamp format="d.m.Y H:M:S"?></para>
+<para>Čas: <?dbtimestamp padding="0" format="d.m.Y H:M:S"?></para>
+<para>Čas: <?dbtimestamp format="d.m.Y H:M:S" padding="0"?></para>
+<simplelist type="vert">
+<member>První položka</member>
+<member>Druhá<footnote>
+<para>poznámka pod čarou</para>
+</footnote> položka</member>
+<member>Třetí položka</member>
+</simplelist>
+<para>Konec</para>
+</chapter>
+
+</book>

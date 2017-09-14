@@ -1,0 +1,29 @@
+body { font-family: Verdana, Helvetica CE, Arial CE, Arial, Helvetica, sans-serif;
+       font-size: 9pt; 
+       background-color: white;
+       color: black; 
+       margin: 0px; }
+
+table { font-size: 9pt }
+
+.title, .subtitle { color: navy }
+
+.programlisting, 
+.programlistingco, 
+.screen { background-color: #d0d0d0; 
+          padding: 5pt;
+          margin: 5pt}
+
+:hover { color: red;
+         text-decoration: underline; }
+
+a { text-decoration: none;
+    color: blue; }
+
+.navfooter, .navheader { background-color: #EEDDFF; }
+
+.chapter, .refentry, 
+.book, .reference, 
+.preface, .colophon { margin-left: 10pt;
+                      margin-right: 10pt; }
+

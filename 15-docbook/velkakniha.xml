@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="cs" 
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Velká kniha</title>
+    <subtitle>Složená z několika částí</subtitle>
+  </info>
+  <preface>
+    <title>Úvod</title>
+    <para>Následuje několik sice nesouvisejících kapitol, ale na
+          ukázku to stačí ne?</para>
+  </preface>
+  <xi:include href="inline.xml"/>
+  <xi:include href="callouts.xml"/>
+  <xi:include href="obrazky.xml"/>
+  <xi:include href="seznamy.xml"/>
+  <xi:include href="tabulky.xml"/>
+  <xi:include href="trida.xml"/>
+  <xi:include href="reference.xml"/>
+</book>

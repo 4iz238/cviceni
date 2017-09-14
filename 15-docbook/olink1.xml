@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+<title>První kniha s ukázkou OLink</title>
+
+
+<chapter xml:id="kap1">
+<title>Kapitola</title>
+
+
+<para>Odkaz na obrázek v jiném dokumentu. Na obrázku <olink targetdoc="OLink2" targetptr="obr"/>
+vidíte obrázek.</para>
+
+<para>Podrobnější informace naleznete v <olink targetdoc="OLink2" targetptr="kap2">druhé kapitole</olink>
+knihy II. Stejný odkaz ještě jednou s automatickým textem –
+<olink targetdoc="OLink2" targetptr="kap2"/>.</para>
+
+</chapter>
+
+</book>

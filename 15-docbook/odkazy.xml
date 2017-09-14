@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" 
+      version="5.0" 
+      xml:lang="cs"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>První pokusná kniha</title>
+  <subtitle>Uživatelská příručka</subtitle>
+
+  <preface>
+    <title>Úvod</title>
+
+    <para>Odstavec textu. Více informací naleznete na mé <link
+    xlink:href="http://www.kosek.cz">domovské stránce</link>. Seznam
+    najdete na adrese <link xlink:href="http://www.seznam.cz"/>.</para>
+
+    <para><link xlink:href="http://docbook.cz" 
+                xlink:title="Server nabízející informace o DocBooku v češtině">DocBook.cz</link>.</para>
+	
+    <para>Odkazy lze vytvořit i z jakéhokoliv inline elementu. Mail můžeme odeslat
+    pomocí funkce <function xlink:href="http://php.net/manual/en/ref.mail.php">mail()</function>.</para>
+  </preface>
+
+  <chapter>
+    <title>První kapitola</title>
+    
+    <para>Text první kapitoly</para>
+    <para>Popis instalace programů používaných v této kapitole najdete
+    v příloze <xref linkend="apb"/>.</para>
+    <para>Popis instalace programů používaných v této kapitole najdete
+    v <link linkend="apb">samostatné příloze B</link>.</para>
+    <para>Popis instalace programů používaných v této kapitole najdete
+    v <xref endterm="apb-short" linkend="apb"/>.</para>
+    <para>Popis instalace programů nepoužívaných v této kapitole najdete
+    v <xref linkend="apa"/>.</para>
+  </chapter>
+
+  <chapter>
+    <title>Druhá kapitola</title>
+    
+    <para>Text druhé kapitoly</para>
+    <para>Informace o prodeji naleznete v tabulce <xref linkend="tab.prodeje"/>.</para>
+    
+    <table xml:id="tab.prodeje">
+      <title>Prodeje v prvním čtvrtletí</title>
+      
+      <tgroup cols="3">
+        <colspec align="left"/>
+        <colspec align="char" char=","/>
+        <colspec align="char" char=","/>
+        <tbody>
+          <row>
+            <entry>Leden</entry>
+            <entry>865,54</entry>
+          <entry>16,3</entry>
+          </row>
+          <row>
+            <entry>Únor</entry>
+            <entry>917,7</entry>
+            <entry>8,1</entry>
+          </row>
+          <row>
+            <entry>Březen</entry>
+            <entry>1036,8</entry>
+            <entry>18,9</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <para>Obrázek <xref linkend="pic.schema"/> znázorňuje schéma
+    zobrazování XML.</para>
+
+    <para><xref xrefstyle="template:Obrázek %t (%n)" linkend="pic.schema"/>
+        znázorňuje schéma zobrazování XML.</para>
+
+    <para>Obrázek <xref xrefstyle="select: labelnumber" linkend="pic.schema"/> 
+        znázorňuje schéma zobrazování XML.</para>
+  </chapter>
+
+  <appendix xml:id="apa" xreflabel="Příloha A - Obrázková příloha">
+    <title>Obrázková příloha</title>
+    
+    <figure xml:id="pic.schema">
+      <title>Schéma zpracování XML</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="schema.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </appendix>
+
+  <appendix xml:id="apb">
+    <title>Druhá příloha</title>
+    <titleabbrev xml:id="apb-short">2. příloha</titleabbrev>
+    
+    <para>Text přílohy</para>
+    <para>...</para>
+  </appendix>
+</book>

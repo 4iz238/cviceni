@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+<title>Ukázka vybraných inline elementů</title>
+
+<section>
+<title>Zápis SGML/XML značkování</title>
+
+<literallayout>
+<tag>element</tag>
+<tag class="attribute">atribut</tag>
+<tag class="attvalue">hodnota atributu</tag>
+<tag class="element">element</tag>
+<tag class="emptytag">empty</tag> – prázdný element
+<tag class="starttag">tag</tag> – počáteční tag
+<tag class="endtag">tag</tag> – ukončovací tag
+<tag class="genentity">mdash</tag> – odkaz na entitu
+<tag class="numcharref">x201C</tag> – odkaz na číselnou znakovou entitu
+<tag class="paramentity">iso-pub</tag> – parametrická entita
+<tag class="pi">Pub caret</tag> – SGML instrukce pro zpracování
+<tag class="xmlpi">xml-stylesheet href="styl.css" type="text/css"</tag> – XML instrukce pro zpracování
+<tag class="comment">nějaký komentář</tag>
+</literallayout>
+
+</section>
+
+<section>
+<title>GUI elementy – menu, klávesové zkratky apod.</title>
+
+<para>Náš úžasně geniální program se spouští pomocí kliknutím na ikonu
+<guiicon>GENPROG</guiicon>. Program lze ukončit stiskem <keycombo
+action="simul"><keycap>Alt</keycap><keycap>F4</keycap></keycombo> nebo
+pomocí příkazu z menu
+<menuchoice><guimenu><accel>S</accel>oubor</guimenu>
+<guimenuitem><accel>K</accel>onec</guimenuitem></menuchoice>.</para>
+
+<para>Soubor lze otevřít pomocí
+<menuchoice>
+<shortcut>
+<keycombo action="simul"><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>
+</shortcut>
+<guimenu>Soubor</guimenu>
+<guimenuitem>Otevřít</guimenuitem>
+</menuchoice>.</para>
+
+</section>
+
+<section>
+<title>Pár dalších ukázek</title>
+
+<para>Moje e-mailová adresa je
+<email>jirka@kosek.cz</email>. Neposílejte mi nic
+<emphasis>zbytečně</emphasis>. Myslím to <emphasis
+role="bold">vážně</emphasis>. Na následujícím <phrase
+role="important">kusu textu</phrase> si ukážeme úpravy stylů.</para>
+
+</section>
+
+</chapter>

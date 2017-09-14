@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Generováno aplikací Microsoft Visio 11.0, SVG Export, v1.0 styly.svg Stránka-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.49365cm"
+		height="3.94367cm" viewBox="0 0 539.543 283.945" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+	<title>styly</title>
+	<v:documentProperties v:langID="1029" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffff99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Arial;font-size:1.5em}
+		.st3 {font-size:1em}
+		.st4 {fill:#ffcc99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#000000;font-family:Arial;font-size:1.5em;font-style:italic}
+		.st6 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st7 {fill:#ffffff}
+		.st8 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {fill:#ffffff;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;visibility:hidden}
+		.st11 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st12 {fill:#000000;font-family:Arial;font-size:1.16666em;font-style:italic}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Stránka-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(0.24,-198.665)">
+			<title>Box</title>
+			<desc>Dokument XML</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="241.425" width="113.39" height="85.0394"/>
+			<rect x="0" y="198.905" width="113.386" height="85.0394" class="st1"/>
+			<text x="15.68" y="236.02" class="st2" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Dokument <tspan
+						x="38.19" dy="1.2em" class="st3">XML</tspan></text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.24,-0.24)">
+			<title>Box.2</title>
+			<desc>styl</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="241.425" width="113.39" height="85.0394"/>
+			<rect x="0" y="198.905" width="113.386" height="85.0394" class="st1"/>
+			<text x="43.2" y="246.82" class="st2" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>styl</text>		</g>
+		<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(425.437,-99.4526)">
+			<title>Box.3</title>
+			<desc>formátovaný dokument</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="241.425" width="113.39" height="85.0394"/>
+			<rect x="0" y="198.905" width="113.386" height="85.0394" class="st1"/>
+			<text x="7.18" y="236.02" class="st2" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>formátovaný <tspan
+						x="17.18" dy="1.2em" class="st3">dokument</tspan></text>		</g>
+		<g id="shape4-12" v:mID="4" v:groupContext="shape" transform="translate(210.004,-82.4447)">
+			<title>Diamond</title>
+			<desc>stylový procesor</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="58.1102" cy="225.834" width="87.17" height="58.1102"/>
+			<path d="M0 225.83 L58.11 167.72 L116.22 225.83 L58.11 283.94 L0 225.83 Z" class="st4"/>
+			<text x="30.6" y="220.43" class="st5" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>stylový <tspan
+						x="23.09" dy="1.2em" class="st3">procesor</tspan></text>		</g>
+		<g id="shape5-16" v:mID="5" v:groupContext="shape" transform="translate(123.547,-42.7597)">
+			<title>Curved arrow</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<path d="M0 276.86 L17.29 276.86 A100.609 100.609 -180 0 0 74.99 258.67 L101.72 239.96 L105.79 245.76 L103.46 230.09
+						 L89.53 222.54 L93.6 228.34 L66.86 247.06 A86.4357 86.4357 0 0 1 17.29 262.68 L0 262.68 L0 276.86 Z"
+					class="st6"/>
+		</g>
+		<g id="shape6-18" v:mID="6" v:groupContext="shape" transform="translate(123.547,326.704) scale(1,-1)">
+			<title>Curved arrow.6</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<path d="M0 276.86 L17.29 276.86 A100.609 100.609 -180 0 0 74.99 258.67 L101.72 239.96 L105.79 245.76 L103.46 230.09
+						 L89.53 222.54 L93.6 228.34 L66.86 247.06 A86.4357 86.4357 0 0 1 17.29 262.68 L0 262.68 L0 276.86 Z"
+					class="st6"/>
+		</g>
+		<g id="group7-20" transform="translate(340.397,-127.799)" v:mID="7" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(10):26"/>
+			</v:userDefs>
+			<title>1-D single</title>
+			<g id="shape8-21" v:mID="8" v:groupContext="shape">
+				<title>List.8</title>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<path d="M0 276.86 L60.94 276.86 L60.94 283.94 L68.03 269.77 L60.94 255.6 L60.94 262.68 L0 262.68 L0 276.86 Z"
+						class="st7"/>
+				<path d="M0 276.86 L60.94 276.86 L60.94 283.94 L68.03 269.77 L60.94 255.6 L60.94 262.68 L0 262.68" class="st8"/>
+			</g>
+			<g id="shape9-24" v:mID="9" v:groupContext="shape">
+				<title>List.9</title>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<path d="M0 276.86 L60.94 276.86 L60.94 283.94 L68.03 269.77 L60.94 255.6 L60.94 262.68 L0 262.68 L0 276.86"
+						class="st9"/>
+			</g>
+			<g id="shape10-27" v:mID="10" v:groupContext="shape" transform="translate(-0.872315,-7.20661)">
+				<title>List.10</title>
+				<rect x="0" y="270.011" width="0.384" height="13.9332" class="st10"/>
+			</g>
+			<g id="shape7-29" v:mID="7" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			</g>
+		</g>
+		<g id="shape11-30" v:mID="11" v:groupContext="shape" transform="translate(227.012,-21.4998)">
+			<title>List.11</title>
+			<desc>prohlížeč editor formátovač</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="262.685" width="85.04" height="42.5197"/>
+			<rect x="0" y="241.425" width="85.0394" height="42.5197" class="st11"/>
+			<text x="14.12" y="250.09" class="st12" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>prohlížeč<v:newlineChar/><tspan
+						x="25.02" dy="1.2em" class="st3">editor<v:newlineChar/></tspan><tspan x="7.9" dy="1.2em" class="st3">formátovač</tspan></text>		</g>
+		<g id="shape12-35" v:mID="12" v:groupContext="shape" transform="translate(425.437,-21.4998)">
+			<title>List.12</title>
+			<desc>obrazovka tiskárna PDF, RTF, ...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="262.685" width="113.39" height="42.5197"/>
+			<rect x="0" y="241.425" width="113.386" height="42.5197" class="st11"/>
+			<text x="24.4" y="250.09" class="st12" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>obrazovka<v:newlineChar/><tspan
+						x="32.19" dy="1.2em" class="st3">tiskárna<v:newlineChar/></tspan><tspan x="15.48" dy="1.2em" class="st3">PDF</tspan>, RTF, ...</text>		</g>
+	</g>
+</svg>

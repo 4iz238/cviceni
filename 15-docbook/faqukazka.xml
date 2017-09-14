@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <info>
+    <title>PHP FAQ</title>
+    <author>
+      <personname><firstname>Jirka</firstname><surname>Kosek</surname></personname>
+      <email>kosek@vse.cz</email>
+    </author>
+  </info>
+  <para><emphasis>V následujících odstavcích se pokusím
+zodpovědět na nejčastější dotazy a problémy, se kterými se setkávají
+především začínající uživatelé systému PHP. Vycházím přitom ze
+skutečných dotazů, se kterými jsem setkal během výuky PHP a
+v různých diskusních skupinách.</emphasis></para>
+  <qandaset>
+    <qandaentry>
+      <question>
+        <para>Nainstaloval jsem si úspěšně PHP42, ale skriptům se
+nepředávají proměnné z formulářů.</para>
+      </question>
+      <answer>
+        <para>Tento problém jste si způsobili sami snahou o co
+nejvýkonnější server. Distribuce PHP4 pro Windows obsahuje dva
+předpřipravené konfigurační soubory <filename>php.ini</filename>
+– <filename>php.ini-dist</filename> a
+<filename>php.ini-optimized</filename>. Většina uživatelů slepě sáhne
+po druhém konfiguračním souboru. Ten však vypíná mnoho funkcí
+interpretu PHP, aby maximálně urychlil jeho běh. Vypnuté je v něm
+i načtení parametrů z formulářů do proměnných. Pro jeho zapnutí
+stačí v <filename>php.ini</filename> správně nastavit hodnotu
+direktivy <literal>register_globals</literal>:</para>
+        <programlisting><![CDATA[register_globals = On]]></programlisting>
+      </answer>
+    </qandaentry>
+    <qandaentry>
+      <question>
+        <label>Záludná otázka</label>
+        <para>Ani předchozí krok nepomohl, stále se mi některé
+proměnné z formulářů nepředávají.</para>
+      </question>
+      <answer>
+        <label>Šalamounská odpověď</label>
+        <para>Nejpravděpodobnější je varianta, že někdy
+v minulosti jste si v prohlížeči uložili cookie se stejným
+názvem jaký má proměnná. Při předávání proměnných skriptům mají
+cookies standardně vyšší prioritu než proměnné z formulářů.
+Řešením je buď přejmenovat proměnné, nebo si nepotřebné cookies
+z prohlížeče vymazat.</para>
+        <para>Pokud vaše aplikace používá cookies, vyplatí se používat
+prohlížeč, který umožňuje snadné prohlížení a odstraňování
+cookies. Takovým prohlížečem je například Mozilla, která získala
+ocenění produkt roku. Zkuste v ní příkaz
+<menuchoice><guimenu>Tasks</guimenu><guisubmenu>Privacy and Security</guisubmenu>
+<guisubmenu>Cookie Manager</guisubmenu><guimenuitem>View Stored
+Cookies</guimenuitem></menuchoice>.</para>
+      </answer>
+    </qandaentry>
+  </qandaset>
+</article>

@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+<info>
+<title>Kniha s vyznačenými rejstříkovými hesly</title>
+<author><personname><firstname>Jiří</firstname><surname>Kosek</surname></personname></author>
+<copyright>
+<year>2000-2001</year>
+<holder>Jiří Kosek</holder>
+</copyright>
+</info>
+
+<chapter xml:id="kapitola.uvod">
+<title>Úvod</title>
+
+<indexterm>
+<primary>informace</primary>
+</indexterm>
+
+<para><indexterm>
+<primary>informace</primary>
+</indexterm>
+Asi se shodneme na tom, že žijeme v informační době. Někdo
+tvrdí, že informační doba je tu od poloviny 20. století, někdo
+tak nazývá devadesátá léta a někdo až nové milénium. To však není
+podstatné. Podstatné je, že informace jsou pro naši společnost stále
+důležitější. Pokud se chceme jako firma uplatnit na trhu, musíme umět
+rychle a levně získat informace o konkurenci, o trhu a preferencích
+spotřebitelů. Jako spotřebitelé chceme bez námahy nalézt prodejce,
+který nám požadované zboží dodá nejrychleji a nejlevněji. Se svými
+zákazníky a dodavateli musíme rychle komunikovat, chceme, aby se
+objednávky a faktury vyřizovaly téměř okamžitě a ne s několikadenním
+prodlením. Pro chvíle volného času si chceme na Internetu rychle
+vybrat dovolenou podle našich snů nebo třeba lechtivé obrázky, které
+budou dle našeho gusta.</para>
+
+<indexterm>
+<primary>informace</primary>
+</indexterm>
+
+<para><indexterm>
+<primary>informace</primary>
+<secondary>sdílení</secondary>
+</indexterm><indexterm>
+<primary>informace</primary>
+<secondary>vyhledávání</secondary>
+</indexterm><indexterm>
+<primary>HTML</primary>
+</indexterm><indexterm>
+<primary>HTML</primary>
+<secondary>nekompatibilita</secondary>
+</indexterm>
+Aby to vše bylo možné, potřebujeme mít k dispozici efektivní
+způsoby sdílení a vyhledávání informací. Mohlo by se zdát, že dnes
+používané softwarové technologie ve spojení s moderními počítačovými
+sítěmi jako Internet našim požadavkům vyhoví. Opak je však pravdou.
+Dosud se pro výměnu dat používají proprietární formáty, se kterými
+dovedou pracovat jen úzké okruhy aplikací, výměna dat mezi
+informačními systémy jednotlivých firem je nákladná a zdaleka ne
+elegantní záležitost. Ani jazyk HTML se nestal dostatečně schopným
+lepidlem, které by dokázalo celý svět informačně propojit. HTML
+neuspělo ze dvou příčin. První spočívala v rozšiřování jazyka
+jednotlivými producenty prohlížečů, čímž došlo k nekompatibilitě
+jednotlivých prohlížečů. Druhým důvodem, který způsobil, že HTML již
+vyčerpalo svůj potenciál, jsou jeho poměrně omezené vyjadřovací
+schopnosti. Internet je dnes informacemi přehlcen a hledaná informace
+je často skryta ve velkém množství dalších pro nás nepotřebných
+informací.</para>
+<para>Problém jazyka HTML je v tom, že se dnes používá spíše pro
+vyznačování vzhledu stránky, než pro označení logického významu jejích
+jednotlivých částí. Často se na stránkách používají složité tabulky,
+aby se dosáhlo požadovaného grafického layoutu. Podívejme se na to,
+jak může vypadat zdrojový kód části webové stránky, která obsahuje
+ceník.</para>
+<programlisting><![CDATA[<table border="0" cellspacing="0" cellpadding="4" bgcolor="#ffe0c0">                                                           	
+  <tr valign="top">                                                               	
+    <th width="120"><font size="-2" color="navy" face="Arial,                     	
+                          Arial CE, Helvetica,                                    	
+                          sans-serif">Název</font></th>                           	
+    <th width="250"><font size="-2" color="navy" face="Arial,                     	
+                          Arial CE, Helvetica,                                    	
+                          sans-serif">Popis</font></th>                           	
+    <th width="60"><font size="-2" color="navy" face="Arial,                      	
+                         Arial CE, Helvetica,                                     	
+                         sans-serif">Cena</font></th>                             	
+  </tr>                                                                           	
+  <tr valign="top" bgcolor="#fff0d0">                                             	
+    <td><font size="-2" face="Arial, Arial CE, Helvetica,                         	
+              sans-serif"><strong>SuperInkJet 120TDi</strong></font></td>         	
+    <td><font size="-2" face="Arial, Arial CE, Helvetica,                         	
+              sans-serif">Moderní inkoustová tiskárna</font></td>                 	
+    <td align="right"><font size="-2" face="Arial, Arial CE, Helvetica,           	
+                            sans-serif">12.000,-</font></td>                      	
+  </tr>                                                                           	
+  <tr valign="top" bgcolor="#fff0d0">                                             	
+    <td><font size="-2" face="Arial, Arial CE, Helvetica,                         	
+              sans-serif"><strong>OfficeCom 56K</strong></font></td>              	
+    <td><font size="-2" face="Arial, Arial CE, Helvetica,                         	
+              sans-serif">Faxmodem s hlasovými funkcemi</font></td>               	
+    <td align="right"><font size="-2" face="Arial, Arial CE, Helvetica,           	
+                            sans-serif">3.500,-</font></td>                       	
+  </tr>                                                                           	
+  <tr valign="top" bgcolor="#fff0d0">                                             	
+    <td><font size="-2" face="Arial, Arial CE, Helvetica,                         	
+              sans-serif"><strong>CD-RW 3246</strong></font></td>                 	
+    <td><font size="-2" face="Arial, Arial CE, Helvetica,                         	
+              sans-serif">Mechanika CD-ROM s možností vypalování                  	
+        a přepisu</font></td>                                                     	
+    <td align="right"><font size="-2" face="Arial, Arial CE, Helvetica,           	
+                            sans-serif">9.500,-</font></td>                       	
+  </tr>                                                                           	
+</table>]]></programlisting>
+<para>V prohlížeči pak na stránce uvidíme přehlednou tabulku s ceníkem.</para>
+
+<para>Ne, mým cílem opravdu nebylo znechutit vám čtení knihy obludným
+výpisem HTML kódu hned na jejím začátku. Chtěl jsem, abychom si
+uvědomili, že dnešní, na pohled skvělé webové stránky, jsou jen soubory
+obsahující mnohdy nepřehledný balast. O tom, že v takovýchto datech se
+těžko něco hledá, není potřeba nikoho přesvědčovat.</para>
+<para>Výše nastíněný problém se snaží odstranit nový jazyk
+<emphasis>XML (eXtensible Markup Language)</emphasis>. Největší přínos
+XML spočívá v tom, že v dokumentech můžeme používat vlastní značky
+(tagy). Pokud tedy vytváříme například ceník, můžeme v něm přehledně
+označit, co je název výrobku, jeho popis a cena. Vše bude přehlednější
+a kratší.</para>
+<programlisting><![CDATA[<ceník>
+  <výrobek>
+    <název>SuperInkJet 120TDi</název>
+    <popis>Moderní inkoustová tiskárna</popis>
+    <cena>12.000,-</cena>
+  </výrobek>
+  <výrobek>
+    <název>OfficeCom 56K</název>
+    <popis>Faxmodem s hlasovými funkcemi</popis>
+    <cena>3.500,-</cena>
+  </výrobek>
+  <výrobek>
+    <název>CD-RW 3246</název>
+    <popis>Mechanika CD-ROM s možností vypalování a přepisu</popis>
+    <cena>9.500,-</cena>
+  </výrobek>
+</ceník>]]></programlisting>
+<para><indexterm>
+<primary>data</primary>
+<secondary>strukturovaná</secondary>
+</indexterm>
+Na první pohled vidíme, že v takto strukturovaných datech se
+bude vyhledávat mnohem snáze. Inteligentní vyhledávací službě zadáme
+název výrobku a maximální cenu — za pár sekund se nám na
+monitoru objeví seznam prodejen, kde mají k dostání zboží, které
+sháníme. XML však není určeno jen pro webové stránky, uplatnění
+nalezne i v elektronickém publikování nebo při výměně dat mezi
+různými systémy. Abychom lépe pochopili, proč vlastně XML vzniklo,
+podíváme se nyní stručně na historii vývoje tohoto jazyka. Zjistíme,
+že i když před třemi lety si pod zkratkou XML něco konkrétního
+představilo jen pár zasvěcených, jeho vývoj trvá již více než třicet
+let.</para>
+
+<section>
+<title>Stručná historie vývoje značkovacích jazyků</title>
+
+
+<para><indexterm class="startofrange" xml:id="idxhistorie">
+<primary>XML</primary>
+<secondary>historie</secondary>
+</indexterm>
+Pomineme-li vědecké výpočty, simulace jaderných zbraní a kryptografii, byly již od samotného počátku počítače využívány zejména
+pro přípravu a publikování textu. Situace v šedesátých letech
+však byla dosti odlišná od té dnešní. Laserové tiskárny byly hudbou
+budoucnosti. Pokud se na počítačích připravovaly dokumenty pro
+profesionální tisk — knihy, časopisy apod., výsledek se pomocí
+osvitové jednotky přenesl na film, ze kterého pak tiskárny dokázaly
+vyrobit knihu nebo časopis. Osvitové jednotky tehdy vyrábělo několik
+firem a každá z nich používala vlastní jazyk pro její ovládání.
+Dokumenty pro sazbu se tedy připravovaly tak, že se přímo do textu
+vepisovaly speciální řídící sekvence pro ovládání určité osvitové
+jednotky. Jednou vytvořený dokument byl tak úzce svázán
+s výstupním zařízením konkrétního výrobce. Jeho převod pro
+použití na konkurenční osvitové jednotce rozhodně nebyl jednoduchou
+záležitostí. V dnešní době, kdy všechny osvitové jednotky rozumí
+formátům PostScript a PDF, to zní neuvěřitelně, ale skutečně to tak
+tehdy bylo.</para>
+<para>Tento stav rozhodně nebyl ideální a mnoho lidí si to uvědomovalo.
+Vzniklo proto několik systémů, které problém nekompatibility různých
+výstupních zařízení řešily. Princip byl většinou jednoduchý —
+v dokumentu se používaly nějaké obecné příkazy, které se pak
+pomocí speciálních konvertorů převedly do jazyka srozumitelného pro
+konkrétní zařízení. Dalo by se říci, že se jednalo o obdobu
+ovladačů různých výstupních zařízení, jak je známe dnes. Pokud jsme
+chtěli dokument vytisknout na nějakém novém zařízení, stačilo sehnat
+příslušný konvertor.<footnote>
+<para>Ostatně, pokud příslušný konvertor (ovladač) dosud neexistoval, nic nám
+nebránilo v tom napsat si vlastní.</para></footnote>
+Samotný dokument se měnit nemusel.</para>
+    <para><indexterm>
+<primary sortas="TeX">TeX</primary>
+</indexterm><indexterm>
+<primary>troff</primary>
+</indexterm>
+Mezi nejrozšířenější z těchto systémů patřily bezesporu
+troff a TeX. Důležité je, že oba dva jazyky byly čistě prezentační
+— dalo se pomocí nich určit, jak se mají jednotlivé části textu
+formátovat. Troff používal poměrně kryptické dvouznakové příkazy.
+Oproti tomu byl TeX velice uživatelsky přívětivý — umožňoval
+definici maker ve vlastním programovacím jazyce a nekladl žádná
+omezení pro délku jednotlivých názvů. Bylo tak možné vytvářet
+přehledné a srozumitelné zdrojové zápisy dokumentů. Zdrojový kód
+v TeXu je poměrně lidsky čitelný, makropříkazy se míchají
+s textem.</para>
+<programlisting><![CDATA[Dokument v TeXu může obsahovat různé formátovací příkazy --
+můžeme např. přepnout {\it na kurzívu} nebo {\bf na tučné} písmo.]]></programlisting>
+<para>Pro účely formátování textu pro tisk je v mnoha směrech TeX
+dodnes nepřekonán a stále se používá (například všechny mé knihy jsou
+vysázeny TeXem). Vývoj TeXu se nezastavil — dnes lze například
+pomocí upravené verze původního TeXu generovat dokumenty ve formátu
+PDF, v několika komerčních programech pro sazbu textu je
+integrováno jádro TeXu.</para>
+<para>Programy jako TeX se však hodí pouze pro zpracování dokumentů,
+které se mají ve výsledku tisknout. Hlavně kvůli tomu, že nabízejí
+příkazy, které umožňují měnit druh použitého písma, způsob zarovnání a nepřeberné množství dalších parametrů. S rozmachem Internetu a dalších médií (např. CD-ROM) vznikla potřeba jedny a tytéž informace
+prezentovat mnoha způsoby — kvalitním tiskem na papíře, jako
+hypertextovou příručku na CD-ROMu či jako sadu provázaných webových
+stránek. Pro tyto účely je však potřeba znát logickou strukturu
+dokumentu. Musíme vědět, že tohle je nadpis a tohle zase popis
+obrázku. Konkrétní velikost písma a způsob formátování záleží až na
+tom, zda chceme produkovat tištěnou knihu nebo multimediální
+CD-ROM.</para>
+<para><indexterm>
+<primary>jazyk</primary>
+<secondary>značkovací</secondary>
+</indexterm>
+Potřebujeme tedy jazyk, který umožní označit
+<emphasis>význam</emphasis> jednotlivých částí textu, a ne jejich
+<emphasis>vzhled</emphasis>. Takovýmto „samopopisným
+jazykem” je právě XML. Nejde však zdaleka o první jazyk
+svého druhu. Jazykům, které umožňují vyznačovat části textu, se říká
+<emphasis>značkovací jazyky (markup languages)</emphasis>.</para>
+<para><indexterm>
+<primary>GML</primary>
+</indexterm>
+Asi prvním známým značkovacím jazykem byl
+<emphasis><acronym>GML</acronym> (Generalized Markup
+Language)</emphasis>, který vytvořili Charles Goldfarb, Edward Mosher a Raymond Lorie<footnote>
+<para>Když se podíváme na jména autorů, můžeme začít pochybovat o tom,
+jaký je skutečný význam zkratky GML.</para>
+</footnote>
+při práci na systému pro uchovávání a následné využití právních textů
+pro IBM. Museli se tehdy vypořádat s nekompatibilitou
+jednotlivých systémů a programů a nejsnazší cesta vedla právě přes
+vytvoření nějakého obecného značkovacího jazyka.</para>
+    <para><indexterm>
+<primary>SGML</primary>
+</indexterm>
+Princip GML se osvědčil a v 80. letech začala na
+jeho základě vyvíjet standardizační organizace ANSI jazyk, který
+umožňoval definici vlastních značkovacích jazyků — uživatel si
+podle potřeby mohl vytvořit vlastní sadu značek, vhodnou pro daný druh
+dokumentů. Sdružení GCA (Graphics Communications Association) již
+dříve vytvořilo standardní formátovací jazyk GenCode, použitelný na
+širokém spektru zařízení. Mnohé cíle obou projektů byly podobné,
+a proto se obě aktivity spojily. Výsledkem byl jazyk
+<emphasis><acronym>SGML</acronym> (Standard Generalized Markup
+Language)</emphasis>, který je definován v ISO normě 8879
+z roku 1986.</para>
+    <para><indexterm>
+<primary>DTD</primary>
+</indexterm><indexterm>
+<primary>definice typu dokumentu</primary>
+<see>DTD</see>
+</indexterm>
+Jazyk SGML je skutečně hodně obecný — samozřejmě
+umožňuje definici vlastních značkovacích jazyků (sad značek a jejich
+vzájemných vztahů) pomocí tzv. <emphasis>definic typu dokumentu
+(DTD)</emphasis>. Navíc má spoustu volitelných parametrů —
+počínaje maximální délkou názvů značek a konče určením znaků
+použitelných jako oddělovače značek od textu. Komplexnost standardu
+SGML poněkud zbrzdila jeho praktické využití. Velkou podporu pro SGML
+znamenalo americké ministerstvo obrany, které od svých dodavatelů
+vyžadovalo dokumentaci právě ve formátu SGML. Důvod byl zřejmý —
+bylo třeba, aby dokumentace byla použitelná v poměrně dlouhém
+období. Nebylo tedy možné použít nějaký proprietární formát textového
+procesoru, který se každých pár let mění.</para>
+    <para><indexterm>
+<primary>HTML</primary>
+</indexterm>
+Asi nejznámější aplikací SGML je jazyk HTML (Hypertext
+Markup Language), který se používá pro tvorbu webových stránek.
+Značky, které můžeme na stránkách používat, určuje příslušné DTD,
+které je pro každou verzi HTML trošku jiné.</para>
+    <para>V polovině 90. let došlo k paradoxní situaci.
+Jazyk HTML si získal velkou oblibu díky své jednoduchosti, která byla
+v ostrém kontrastu s komplexností SGML. Ukázalo se však, že
+pevně daná skupina značek, které HTML používá, už nestačí. Pro účely
+vyhledávání a vůbec efektivnější výměny dat by bylo lepší mít možnost
+používat vlastní značky, které by přesně vymezily význam textu.
+Požadavek by tedy mohl bez problémů splnit jazyk SGML.</para>
+    <para><indexterm>
+<primary>mezinárodní podpora</primary>
+</indexterm>
+Jak jsme se již zmínili, standard SGML je velmi komplexní a jeho úplná implementace velice náročná. Přitom se během deseti let
+používání SGML ukázalo, že se v praxi používá stejně jen část
+jeho možností. Tato nejdůležitější podmnožina SGML proto byla vybrána
+jako nový jazyk, který dovede Web do třetího tisíciletí. Správně již
+tušíte, že nový jazyk dostal jméno XML (eXtensible Markup Language).
+Jedná se o podmnožinu SGML, která si zachovává možnost definování
+vlastních DTD, a tedy i vlastních značek, pro jednotlivé skupiny
+dokumentů. Narozdíl od SGML je mnoho parametrů předem určeno a nelze
+je měnit — maximální délka názvů značek, použité oddělovače a speciální znaky atd. XML už rovnou počítá s podporou všech
+možných jazyků, takže není tak úzce svázáno s angličtinou jako
+většina předchozích počítačových technologií. Navíc je syntaxe zápisu
+dokumentů v XML oproti SGML poměrně přísná, což umožní mnohem
+snazší a levnější vývoj aplikací, které umožňují s tímto jazykem
+pracovat.</para>
+    <para><indexterm>
+<primary>publikování</primary>
+<secondary>elektronické</secondary>
+</indexterm>
+Jak sami vidíte, XML pochází z oblasti, která se
+zaměřuje na uchovávání a zpracování textových dokumentů. Pro tyto
+účely se XML hodí výborně. Mnoho velkých i malých firem vyrábějících
+software, hardware nebo třeba letadla používá pro tvorbu dokumentace
+systémy založené na XML nebo SGML.</para>
+    <para><indexterm>
+<primary>dokument</primary>
+<secondary>databázový</secondary>
+</indexterm>
+Elektronické publikování dokumentů však není jedinou
+doménou XML. Značky umožňují zachytit v dokumentu důležité
+informace o jeho struktuře a významu. Není proto problém do XML
+dokumentu uložit například obsah tabulky z relační databáze, jak
+je vidět na obrázku
+<xref linkend="obr.uvod-xml-databaze"/>. O dokumentech bychom
+měli spíše uvažovat jako o nosičích informací — není už tak
+důležité, jak moc jsou v nich data strukturovaná. Některé
+aplikace pracují s dokumentem, který je filosofickou esejí, jiné
+za dokument považují řadu čísel s burzovními indexy.</para>
+<figure xml:id="obr.uvod-xml-databaze"><info><title>XML není určeno jen pro texty, poradí si i s databázovými
+daty</title></info>
+
+<programlisting><![CDATA[Obrázek záměrně chybí]]></programlisting>
+</figure>
+<indexterm class="endofrange" startref="idxhistorie">
+</indexterm>
+</section>
+
+<section>
+<title>Co přináší XML nového</title>
+
+
+<para>V médiích jsou možnosti XML líčeny jen v těch nejrůžovějších
+barvách. Soudný člověk pak často začne přemýšlet o tom, zda to vše
+není přeci jen přehnané. Pravdou je, že XML má mnoho rysů, které se
+diametrálně liší od dodnes používaných technologií. Jeho otevřenost a flexibilita skutečně může způsobit revoluci v práci s informacemi,
+která zasáhne  každého uživatele, a nemusí to být jen uživatel
+klasického osobního počítače — do hry přicházejí i mobilní
+telefony a různé elektronické organizéry (PDA). V následujících
+odstavcích se podíváme na jedinečné vlastnosti XML a jejich využití.
+Sami budete moci zvážit, zda XML představuje opravdu tak velký krok
+kupředu.</para>
+
+<section>
+<title>Standardní formát pro výměnu a sdílení informací</title>
+
+
+<para><indexterm>
+<primary>informace</primary>
+<secondary>sdílení</secondary>
+</indexterm><indexterm>
+<primary>informace</primary>
+<secondary>výměna</secondary>
+</indexterm><indexterm>
+<primary>komunikace</primary>
+</indexterm>
+Dnešní doba přeje komunikaci. Komunikace není nic jiného, než
+výměna informací. V dnešním globálním světě není možné pro výměnu
+dat používat nějaké proprietární formáty, které jsou svázány
+s konkrétním softwarem nebo hardwarem. Nesluší se posílat
+informace ve wordovém formátu DOC, protože někdo s unixovým
+počítačem si je těžko přečte. Centrále nadnárodní společnosti asi
+nebudeme výroční zprávu české pobočky posílat ve formátu T602, protože
+ve své americké verzi kancelářského balíku si ji nikdo nepřečte.
+<emphasis>Je potřeba používat nějaký jednoduchý otevřený formát, který
+není úzce svázán s nějakou platformou nebo proprietární
+technologií.</emphasis></para>
+<para><indexterm>
+<primary>formát</primary>
+<secondary>otevřený</secondary>
+</indexterm><indexterm>
+<primary>formát</primary>
+<secondary>firemní</secondary>
+</indexterm>
+Takovým formátem je například XML. Otevřený formát je to proto,
+že jeho specifikace je každému zdarma k dispozici na serveru
+konsorcia W3C, které se stará i o mnoho dalších technologií
+souvisejících s Webem. Každý tak může bez problémů do svých
+aplikací implementovat podporu XML. To představuje velký rozdíl oproti
+firemním formátům, k nimž není k dispozici žádná dokumentace
+a navíc se jedná v porovnání s XML o velice složité formáty,
+často binární.</para>
+<para><indexterm>
+<primary>formát</primary>
+<secondary>textový</secondary>
+</indexterm>
+Práci s XML usnadňuje i to, že celý formát je založen na
+obyčejném textu. I když pro většinu lidí zůstane kód XML skryt a budou ho používat pouze aplikace pro vzájemnou komunikaci, není
+problém kdykoliv otevřít XML dokument v libovolném textovém
+editoru a pár potřebných úprav provést ručně. Použití textového
+formátu může někomu připadat jako zbytečné plýtvání místem. Dnes se
+však mnohem větší důraz klade na srozumitelnost a snadnou práci
+s daty — jestli ušetříme pár kilobajtů paměti, již nikoho
+příliš netrápí. Navíc většina protokolů pro síťovou komunikaci (včetně
+protokolu HTTP používaného na Webu) umožňuje zcela transparentně pro
+potřeby přenosu data komprimovat a u příjemce zase dekomprimovat
+do původní podoby.</para>
+</section>
+
+<section>
+<title>Mezinárodní podpora</title>
+
+
+<para><indexterm>
+<primary>mezinárodní podpora</primary>
+</indexterm><indexterm>
+<primary>ISO 10646</primary>
+</indexterm><indexterm>
+<primary>znaková sada</primary>
+<secondary>ISO 10646</secondary>
+<see>ISO 10646</see>
+</indexterm>
+XML je asi vůbec první formát, který hned od samého počátku dbá
+na potřeby jiných jazyků než je angličtina. Jako znaková sada se
+používá ISO 10646. Pod tím si asi nepředstavíte nic konkrétního.
+ISO 10646 je 32bitová znaková sada, která dokáže pojmout všechny
+znaky dnes používaných jazyků.<footnote>
+<para>Dokonce je v ní tolik místa, že existují návrhy na zařazení
+klingonského písma z televizního seriálu StarTrek.</para>
+</footnote>
+</para>
+<para><indexterm>
+<primary>kódování</primary>
+<seealso>znaková sada</seealso>
+</indexterm><indexterm>
+<primary>znaková sada</primary>
+<secondary>ISO 8859-2</secondary>
+<see>ISO 8859-2</see>
+</indexterm><indexterm>
+<primary>znaková sada</primary>
+<secondary>windows-1250</secondary>
+<see>windows-1250</see>
+</indexterm><indexterm>
+<primary>ISO 8859-2</primary>
+</indexterm><indexterm>
+<primary>windows-1250</primary>
+</indexterm>
+V XML proto můžeme vytvářet dokumenty, které obsahují texty
+v mnoha jazycích najednou — můžeme míchat např. češtinu,
+angličtinu, ruštinu, arabštinu a korejštinu zcela dle libosti. Pokud
+by dokumenty obsahovaly pouze český text, znamenalo by ukládání přímo
+v ISO 10646 zbytečné plýtvání místem. XML dokument proto
+může být v libovolném kódování (např. windows-1250,
+ISO 8859-2).<footnote>
+<para>Kódování ISO 8859-2 je standardní kódování ISO, které by se
+mělo používat pro české znaky. V praxi je toto kódování používáno v unixových systémech včetně Linuxu. Microsoft toto kóování modifikoval
+a vytvořil tak nekompatibilní kódování windows-1250, které se používá
+pro české texty ve Windows.</para>
+</footnote>
+Kódování je však v každém dokumentu přesně určeno,
+takže odpadají problémy s konverzí z jednoho kódování do
+druhého. Každému je hned jasné, v jakém kódování je
+dokument.</para>
+</section>
+
+<section>
+<title>Vysoký informační obsah</title>
+
+
+<para>Pomocí XML značek vyznačujeme v dokumentu význam
+jednotlivých částí textu. Říkáme „toto je název výrobku, tohle
+zase telefonní číslo a tohle je číslo našeho účtu”. Dokumenty
+obsahují mnohem více informací, než kdyby se používalo prezentační
+značkovaní — „tohle je tučným písmem Arial
+o velikosti 12 bodů zarovnané vlevo”.</para>
+<para><indexterm>
+<primary>vyhledávání</primary>
+<secondary>fulltextové</secondary>
+</indexterm>
+XML dokumenty jsou informačně bohatší. To lze samozřejmě
+s výhodou využít v mnoha oblastech. Největší přínos to bude
+znamenat samozřejmě pro prohledávání. Dnešní internetové vyhledávací
+služby jako AltaVista podporují pouze fulltextové vyhledávání. Zadáme
+hledaná slova a doufáme, že se nám vrátí dokumenty, které chceme.
+Pokud bychom mohli určit, že např. hledané slovo nás zajímá jako
+název firmy, bylo by při použití XML a vhodném označkování hledání
+mnohem přesnější.</para>
+<figure xml:id="obr.uvod-informacni-obsah"><info><title>XML dokumenty v sobě mají nejvíce informace, kterou mohou
+automaticky zpracovávat i počítače</title></info>
+
+<programlisting><![CDATA[Obrázek záměrně chybí]]></programlisting>
+</figure>
+</section>
+
+<section>
+<title>Snadná konverze do dalších formátů</title>
+
+
+<para><indexterm>
+<primary>konverze</primary>
+</indexterm><indexterm>
+<primary>styl</primary>
+</indexterm><indexterm>
+<primary>jazyk</primary>
+<secondary>stylový</secondary>
+</indexterm>
+V mnoha případech potřebujeme XML dokument zobrazit na
+nějakém běžném médiu — na obrazovce, na papíře. V tomto
+případě už samozřejmě chceme přesně ovlivnit, jak se obsah
+jednotlivých značek zobrazí. XML samo o sobě žádné takové
+prostředky nenabízí. Existuje však naštěstí hned několik
+<emphasis>stylových jazyků</emphasis>, které umožňují definovat, jak
+se mají jednotlivé elementy zobrazit. Souboru pravidel nebo příkazů,
+které definují, jak se dokument převede do jiného formátu, se říká
+<emphasis>styl</emphasis>.</para>
+      <para>Výhodou je, že jeden styl můžeme aplikovat na mnoho
+dokumentů stejného typu. Dosáhneme tak jednotného formátování. Zároveň
+můžeme na jeden dokument aplikovat několik různých stylů. Jedním
+stylem vygenerujeme postscriptový soubor pro naše DTP studio, druhým
+HTML kód pro zařazení na naše webové stránky a třetím třeba jen obsah
+dokumentu, který pošleme mailem šéfovi.</para>
+      <para><indexterm>
+<primary>CSS</primary>
+</indexterm><indexterm>
+<primary>styl</primary>
+<secondary>kaskádový</secondary>
+<see>CSS</see>
+</indexterm><indexterm>
+<primary>XSL</primary>
+</indexterm><indexterm>
+<primary>eXtensible Stylesheet Language</primary>
+<see>XSL</see>
+</indexterm><indexterm>
+<primary>FOSI</primary>
+</indexterm><indexterm>
+<primary>DSSSL</primary>
+</indexterm>
+Stylových jazyků existuje dnes několik. Mezi nejznámější
+patří asi kaskádové styly (CSS). Ty lze použít pouze pro jednoduché
+formátování, které dobře poslouží pro zobrazení dokumentu na obrazovce
+v XML editoru nebo v prohlížeči. Pro náročnější aplikace
+slouží jazyk XSL (eXtensible Stylesheet Language). Ten umožňuje před
+samotným formátováním dokument různě upravovat a transformovat (části
+dokumentu je možné třeba vypustit nebo naopak automaticky vygenerovat
+obsah dokumentu). Společně s XML lze použít i velice výkonný,
+i když pro některé aplikace příliš složitý jazyk DSSSL (Document
+Style Semantics and Specification Language), který byl původně vyvinut
+pro potřeby jazyka SGML. Dříve se ještě hodně používal jazyk FOSI
+(Formatting Output Specification Instance).</para>
+</section>
+
+<section>
+<title>Automatická kontrola struktury dokumentu</title>
+
+
+<para><indexterm>
+<primary>dokument</primary>
+<secondary>kontrola</secondary>
+</indexterm><indexterm>
+<primary>struktura</primary>
+<secondary>kontrola</secondary>
+</indexterm><indexterm>
+<primary>parser</primary>
+</indexterm>
+XML nám umožňuje definovat vlastní sadu značek, které chceme
+v dokumentu používat. Tuto možnost samozřejmě využít nemusíme
+— můžeme používat libovolné značky. Pokud si však předem pomocí
+DTD definujeme, jaké značky může dokument obsahovat, bude náš další
+život mnohem lehčí. Zcela automaticky můžeme kontrolovat, zda dokument
+obsahuje pouze povolené značky. Programu, který kontroluje správnost
+XML dokumentů, se říká <emphasis>parser</emphasis>. Tento fakt má
+velký význam i při vývoji aplikací. Pro čtení dat můžeme použít
+parser, který za nás detekuje většinu chyb v datech —
+obrovsky nám to ušetří práci. Kdo programuje, sám nejlépe ví, že
+většina kódu stejně ošetřuje různé chybové stavy a chyby ve vstupních
+datech.</para>
+<para><indexterm>
+<primary>DTD</primary>
+</indexterm><indexterm>
+<primary>schéma</primary>
+</indexterm><indexterm>
+<primary>XML</primary>
+<secondary>schéma</secondary>
+<see>schéma</see>
+</indexterm>
+DTD není jediný jazyk, který umožňuje definovat  značky
+použitelné v dokumentech. DTD se hodí pro popis formátů, které se
+používají především pro textové dokumenty. Neobsahuje však nástroje pro
+kontrolu různých typů dat jako čísla, měnové údaje, údaje o datu
+a čase. To je přitom velice důležité pro aplikace, které si pomocí XML
+posílají data spíše databázového charakteru. Pro tyto potřeby existuje
+několik dalších jazyků, umožňujících určit správné
+„schéma” dokumentu. V současné době se pod názvem
+<emphasis>XML schémata</emphasis> pracuje na půdě konsorcia W3C na
+vytvoření jednotného standardu.</para>
+<para>Příliš svobody může i škodit. Je sice hezké, že si každý může
+pojmenovat značky, jak chce, ale to zase přinese problémy při
+vyhledávání informací. Někdo název firmy označí pomocí značky <literal>&lt;název&gt;</literal>, někdo pomocí <literal>&lt;obchodníNázev&gt;</literal>, nebo třeba jako
+<literal>&lt;NázevFirmy&gt;</literal>. Jak se
+s tím pak má vyhledávací stroj vypořádat? Existují proto různé
+skupiny a sdružení, které vydávají DTD nebo schémata, jež by se měla
+používat v dané oblasti. Sem patří iniciativa Microsoftu známá
+pod názvem BizTalk nebo server XML.ORG provozovaný sdružením OASIS.
+Nejde přitom o nic jiného, než se shodnout na pár značkách, které
+se budou standardně používat pro označování určitých částí dokumentu.
+Dnes existují rozmanité sady značek počínaje těmi, které uspokojí
+potřeby e-businessu, a konče možností zachycovat informace
+o složitých chemických strukturách nebo astronomických údajích.
+Mezi tím si samozřejmě své místo našla např. i technická dokumentace
+nebo značky pro zápis matematických vzorců.</para>
+<para><indexterm>
+<primary>jmenný prostor</primary>
+</indexterm><indexterm>
+<primary>prostor</primary>
+<secondary>jmenný</secondary>
+<see>jmenný prostor</see>
+</indexterm>
+Velkou výhodou XML je to, že v jednom dokumentu můžeme
+používat najednou nezávisle na sobě několik druhů značkovaní díky
+<emphasis>jmenným prostorům</emphasis> (namespaces). Můžeme tak
+vytvářet dokumenty, které používají značky definované pro naše
+specifické účely, a pouze části dokumentu důležité pro vyhledávání
+označkujeme navíc pomocí nějakého standardizovaného DTD nebo
+schématu.</para>
+</section>
+
+<section>
+<title>Hypertext a odkazy</title>	
+
+
+<para><indexterm>
+<primary>odkazy</primary>
+</indexterm><indexterm>
+<primary>hypertext</primary>
+</indexterm>
+XML samozřejmě umožňuje vytváření odkazů v rámci jednoho
+dokumentu i mezi dokumenty navzájem. Nabízí však mnoho možností nad
+rámec odkazů, které známe z HTML. Můžeme vytvářet i vícesměrné
+odkazy, které spojují několik dokumentů dohromady. Užitečná je i možnost
+uložení odkazů zcela mimo dokumenty, kterých se týkají. Tímto způsobem
+lze vytvářet různé anotace a komentáře k již existujícím
+stránkám.</para>
+<para><indexterm>
+<primary>XLink</primary>
+</indexterm><indexterm>
+<primary>XPointer</primary>
+</indexterm><indexterm>
+<primary>XPath</primary>
+</indexterm>
+Tvorba odkazů je dnes popsána ve třech standardech —
+XLink, XPointer a XPath. XPath (XML Path Language) je jazyk, který
+umožňuje adresovat jednotlivé části dokumentu. Jeho možnosti dále
+rozšiřuje jazyk XPointer (XML Pointer Language). XPointer se používá
+k určování jednotlivých částí dokumentu ve stylu: „zajímá
+mě první odstavec třetí kapitoly”. Není proto potřeba všechny
+části dokumentu, na které chceme odkazovat, explicitně označovat
+pomocí návěstí jako v HTML.</para>
+<para>XLink (XML Linking Language) je vlastní jazyk pro tvorbu
+odkazů. Jednotlivé dokumenty se samozřejmě určují pomocí jejich URL
+adresy, za kterou lze uvést ještě XPointer pro přesnější určení části
+dokumentu.</para>
+</section>
+</section>
+
+<section>
+<title>K čemu všemu můžeme XML použít</title>
+
+
+<indexterm class="startofrange" xml:id="idxvyuziti">
+<primary>XML</primary>
+<secondary>využití</secondary>
+</indexterm>
+<para>I když je technologie XML poměrně nová, je už dnes
+k dispozici mnoho softwarových balíků, které umožňují s XML
+pracovat. Mnoho z těchto programů je navíc k dispozici
+zdarma. My se teď podíváme na oblasti, ve kterých se XML nejčastěji
+nasazuje a přináší výhody oproti jiným technologiím.</para>
+
+<section>
+<title>B2B – business-to-business aplikace</title>
+
+
+<para><indexterm>
+<primary>business-to-business</primary>
+<see>B2B</see>
+</indexterm><indexterm>
+<primary>B2B</primary>
+</indexterm>
+Zkratka B2B je dnes v módě. V praxi se však nejedná
+o nic jiného, než o výměnu informací mezi obchodními
+partnery v elektronickém formátu. Jako vhodný formát pro přenos
+dat se jeví právě jazyk XML, který je velice jednoduchý a podporuje ho
+mnoho počítačových platforem. Pomocí XML si firmy mohou vyměňovat
+objednávky, faktury a mnoho dalších údajů.</para>
+  <para><indexterm>
+<primary>EDI</primary>
+</indexterm><indexterm>
+<primary>Electronic Data Interchange</primary>
+<see>EDI</see>
+</indexterm>
+To bylo možné již dříve díky EDI (Electronic Data
+Interchange). Datové formáty používané v EDI byly však dost složité a jejich implementace byla poměrně nákladná. Navíc jednotlivé systémy EDI
+nebyly mezi sebou kompatibilní, a tak bylo často nezbytné informační
+systém speciálně upravit pro každého dalšího obchodního partnera, se
+kterým jsme chtěli komunikovat elektronicky.</para>
+  <para>Použití XML však není omezeno jen na výměnu dat mezi
+obchodními partnery. V USA lze již pomocí XML posílat čtvrtletní
+finanční výkazy EDGAR pro úřad U. S. Securities. Dovedu si
+představit i formát, který umožní zasílání daňových přiznání
+v elektronické podobě. Použití XML pro tyto účely se jeví jako
+zcela ideální, protože přidání podpory tohoto formátu do stávajících
+účetních a ekonomických systémů je velice jednoduché.</para>
+  <para><indexterm>
+<primary>podpis</primary>
+<secondary>digitální</secondary>
+</indexterm>
+Asi největší překážkou, která dnes brání masovému nasazení XML
+a dalších technologií pro důležitou obchodní a správní komunikaci, je
+neexistence zákona o digitálním podpisu, který by elektronicky
+provedené právní úkony postavil na roveň s klasicky podepsanými
+papírovými lejstry.<footnote>
+<para>V době psaní knihy bohužel vláda rozhodla o tom, že
+digitální podpis ještě nepotřebujeme. Doufejme, že brzy dostane rozum
+a zákon bude na světě.</para></footnote></para>
+</section>
+
+<section>
+<title>„Inteligentní” webové stránky</title>
+
+
+<para><indexterm>
+<primary>stránka</primary>
+<secondary>webová</secondary>
+</indexterm>
+S nasazením jazyka XML se počítá především na Webu. Možnost
+definice vlastních značek, které přesně vyznačí význam jednotlivých
+částí stránky, bude mít pozitivní efekt na přesnost a rychlost
+vyhledávání informací.</para>
+<para><indexterm>
+<primary>HTML</primary>
+</indexterm><indexterm>
+<primary>XHTML</primary>
+</indexterm>
+V zásadě lze XML pro tvorbu stránek využít dvěma způsoby.
+První, více revoluční přístup, počítá s tím, že stránky budou
+používat zcela vlastní sady značek. Pro mnoho aplikací je však mnohem
+jednodušší používat již zažité HTML značky a pouze je vhodně doplnit
+o pár dalších, kterými se označí části stránky důležité pro
+vyhledávání. Aby bylo rozšiřování HTML značek snadné, pracuje
+konsorcium W3C na převodu jazyka HTML do XML. Prvním výsledkem je
+jazyk XHTML 1.0, který odpovídá HTML 4.0. Drobné rozdíly mezi XHTML a HTML dokumenty jsou dány tím, že stránky v XHTML jsou zapisovány
+v souladu se syntaxí XML.</para>
+<para>Nyní se pracuje na tom, aby se velké množství elementů, které
+XHTML (HTML 4.0) obsahuje, rozdělilo do několika nezávislých modulů.
+Budeme pak mít modul pro formátování textu, pro tvorbu odkazů, pro
+tabulky, pro výrobu formulářů nebo pro zařazování obrázků. Nebude
+problém vytvořit vlastní modul (tedy sadu značek), které budeme na
+našich stránkách používat např. pro označení důležitých informací
+o nabídce naší firmy. Tyto informace pak mohou využít
+inteligentní prohledávací služby.</para>
+<para><indexterm>
+<primary>XHTML</primary>
+<secondary>modul</secondary>
+</indexterm><indexterm>
+<primary>zařízení</primary>
+<secondary>profil</secondary>
+</indexterm>
+W3C jde ve svých úvahách ještě dál. Každý XHTML dokument bude
+obsahovat i svůj profil — seznam modulů, které používá, společně
+se seznamem grafických a dalších formátů, které se používají pro
+vložené objekty (jako např. obrázky). Každý prohlížeč pak bude
+společně s požadavkem na stránku posílat i svůj profil —
+informaci o tom, co dané zařízení zvládne zobrazit. Pokud bude
+stránka dostupná ve více variantách, server vybere tu
+s odpovídajícím profilem. V případě potřeby může server
+automaticky stránku konvertovat pro profil klienta. Tento poměrně
+obecný model umožní vývoj stránek pro mnoho zařízení s rozdílnými
+schopnostmi — PC, mobilní telefony, WebTV, organizéry nebo třeba
+herní konzole. Dnes nám to může připadat jako futuristická vize, ale
+podle mnoha výzkumů a studií již za pár let bude většina uživatelů
+přistupovat k Internetu právě pomocí různých speciálních
+zařízení. Klasická PC budou v menšině.</para>
+<para><indexterm>
+<primary>WAP</primary>
+</indexterm><indexterm>
+<primary>Wireless Application Protocol</primary>
+<see>WAP</see>
+</indexterm><indexterm>
+<primary>WML</primary>
+</indexterm><indexterm>
+<primary>Wireless Markup Language</primary>
+<see>WML</see>
+</indexterm>
+Moderní mobilní telefony podporují protokol WAP (Wireless
+Application Protocol), který je obdobou služby World Wide Web právě pro
+jednoduchá bezdrátová zařízení. Pro tvorbu stránek ve WAPu se používá
+jazyk WML (Wireless Markup Language), který je založen na XML a je
+definován pomocí DTD.</para>
+<para>XML se na Webu nemusí používat jen pro tvorbu stránek. Funkčnost
+mnoha webových aplikací je dnes rozložena mezi server a prohlížeč. XML
+je optimální formát i pro výměnu dat mezi serverem a prohlížečem.
+Klient si vyžádá část dat od serveru a formátování podle různých
+požadavků uživatele je již plně v rukou klienta.</para>
+<para><indexterm>
+<primary>WDDX</primary>
+</indexterm><indexterm>
+<primary>XML-RPC</primary>
+</indexterm>
+Pokud má spolu spolupracovat více různých webových
+aplikací, je rovněž potřeba, aby si vyměňovaly informace. Samozřejmě
+lze použít nějaké proprietární formáty, ale existují i de facto
+standardy — XML-RPC a WDDX. První z nich umožňuje
+vyvolávání vzdálených procedur — implementace XML-RPC je velice
+jednoduchá, protože vše je postaveno na dobře zavedených standardech.
+Data se mezi aplikacemi posílají pomocí protokolu HTTP a jsou
+uložena v XML. WDDX je zase datový formát založený na XML, který
+není závislý na žádném konkrétním programovacím jazyce. Pokud si mají
+nějaká data předávat webové aplikace napsané v ASP, PHP, Perlu
+nebo jiném jazyce, není nic snazšího, než k tomu využít
+WDDX.</para>
+</section>
+
+<section>
+<title>Metadata</title>
+
+
+<para><indexterm>
+<primary>metadata</primary>
+</indexterm><indexterm>
+<primary>RDF</primary>
+</indexterm><indexterm>
+<primary>Resource Description Framework</primary>
+<see>RDF</see>
+</indexterm><indexterm>
+<primary>CDF</primary>
+</indexterm><indexterm>
+<primary>Chanell Definition Format</primary>
+<see>CDF</see>
+</indexterm>
+Metadata aneb data o datech. Pro vyhledávání, ale hlavně pro
+klasifikaci dokumentů je užitečné o nich znát co nejvíce metadat.
+Metadata pro dokument představují takové údaje jako autor dokumentu, datum
+vytvoření, vlastník copyrightu, druh dokumentu apod. Asi
+nejperspektivnější formát pro zápis a výměnu metadat je RDF (Resource
+Description Framework), který umožňuje k libovolnému dokumentu
+připojit libovolná metadata.</para>
+<para>Do kategorie metadat patří i například formát Microsoftu CDF
+(Chanell Definition Format), který umožňuje jednoduchou syntaxí,
+založenou na XML, definovat zajímavé internetové zdroje. Prohlížeč pak
+pro nás může informace ze zdrojů určených pomocí CDF automaticky
+stahovat.</para>
+</section>
+
+<section>
+<title>Elektronické publikování</title>
+
+
+<para><indexterm>
+<primary>publikování</primary>
+<secondary>elektronické</secondary>
+</indexterm>
+Když vynalezl Guttenberg knihtisk, byla to skutečná revoluce
+v šíření informací. Do té doby se všechny knihy musely
+rozmnožovat ručním opisováním. Guttenbergův vynález umožnil jednou
+připravit předlohu stránky a z ní tiskem pořídit mnoho kopií.
+Tento princip využíváme i dnes — z jedné předlohy vyrobíme
+mnoho kopií. Celý postup je sice odlišný, pro přípravu textu a jeho
+zlom se používají počítače, ale princip zůstal stejný.</para>
+<para>Papír však dnes není jediné cílové médium. Jak jsme se již
+zmínili, často potřebujeme jeden dokument v několika různých
+formátech — jako tištěnou knihu, sadu provázaných webových
+stránek nebo hypertextovou příručku na CD-ROMu. Stojíme před novým
+problémem — už nestačí pohodlně vytvořit text a ten rozmnožit
+v libovolném počtu výtisků. My navíc potřebujme tento text
+publikovat v několika naprosto odlišných formátech.</para>
+<para>Dnešní textové editory nám pomohou s přípravou dokumentů,
+které se mají tisknout. Z vlastní zkušenosti však víte, že HTML
+stránky vytvořené pomocí běžných textových editorů z dlouhých
+dokumentů nejsou zrovna to pravé ořechové. Několika set stránkovou
+knihu prostě nemůžeme dát na Web jako jednu dlouhou stránku.
+O možnosti vytvoření dalších formátů, vhodných např. pro
+publikování na CD-ROMu nebo jako on-line nápověda v aplikacích,
+ani nemluvě.</para>
+<para><indexterm>
+<primary>DTP</primary>
+</indexterm><indexterm>
+<primary>PDF</primary>
+</indexterm>
+Nové možnosti přinášejí do této oblasti (někdy poněkud vágně
+nazývané elektronické publikování) právě technologie SGML a XML. Pokud
+máme naše dokumenty uloženy v XML, můžeme je pomocí stylů velice
+snadno zcela automaticky konvertovat do mnoha dalších formátů. Stylové
+jazyky jako DSSSL a XSL jsou velice flexibilní. Jednou proto můžeme
+z dokumentu vygenerovat PDF soubor vhodný pro DTP, podruhé zase
+sadu HTML stránek, kde každá stránka představuje jednu kapitolu
+dokumentu.</para>
+<para><indexterm>
+<primary>dokumentace</primary>
+<secondary>tvorba</secondary>
+</indexterm>
+Flexibilita stylových jazyků umožňuje, aby se z jednoho zdroje
+generovalo několik druhů dokumentů s různým obsahem —
+některé údaje v technické dokumentaci jsou například tajné a vytisknou
+se pouze pro potřeby firmy. Zakazníkům se ze stejného XML dokumentu
+vygeneruje okleštěná verze.</para>
+<para>XML se proto používá zejména při tvorbě různé technické
+dokumentace, kdy lze z jednoho zdroje generovat mnoho formátů
+podle potřeb jednotlivých uživatelů. Řešení založená na SGML používaly
+zejména velké firmy, protože byla poměrně nákladná. Použití XML však
+vše zjednodušuje, a vyplatí se v podstatě komukoliv.
+Například tato kniha je rovněž napsána v XML. Pro redakci
+nakladatelství z tohoto zdrojového tvaru dokumentu vytvořím PDF
+soubor, který se použije pro tisk knihy. Stejně tak mohu vygenerovat
+knihu ve formátu HTML Help, který se dnes používá v mnoha nových
+aplikacích pro Windows. Kdybych toho všeho chtěl dosáhnout pomocí
+nějakého běžného editoru z kancelářského balíku, asi bych se dost
+zapotil.</para>
+<figure><info><title>XML dokumenty lze snadno konvertovat do mnoha dalších
+formátů</title></info>
+
+<programlisting><![CDATA[Obrázek záměrně chybí]]></programlisting>
+</figure>
+<para>Jen pro ilustraci, jak různorodí mohou být jednotliví uživatelé
+značkovacích jazyků určených pro tvorbu dokumentace: dodavatelé
+amerického ministerstva obrany, výrobce letadel Boeing, vývojové týmy
+Linuxu, FreeBSD, PHP a mnoha dalších open-source projektů. Pokud
+budete chtít vydat encyklopedii na CD-ROMu a zároveň i jako sérii
+tištěných svazků pro bibliofily, těžko pro to naleznete lepší
+technologii než XML.</para>
+</section>
+
+<section>
+<title>Univerzální datový formát</title>
+
+
+<para><indexterm>
+<primary>formát</primary>
+<secondary>univerzální</secondary>
+</indexterm> Pokud jste někdy psali nějaký větší program, brzy jste
+asi zjistili, že je potřeba, aby si tento program někde pamatoval
+nastavení svých parametrů. Klasicky se parametry ukládají do různých
+textových nebo INI souborů, do registrů Windows apod. Pro ukládaní
+složitějších parametrů se však tyto způsoby nehodí a navíc je
+poměrně komplikované psát program, který bude načítat jednotlivé
+parametry z konfiguračního souboru. Pokud by si program ukládal
+data v XML, mohl by je programátor velice snadno číst pomocí
+některé z knihoven pro práci s XML. Do souboru by bylo možné
+uložit i složité struktury a navíc by byl pořád jen textovým
+souborem, kterému by zkušený uživatel rozuměl a na jehož úpravy
+by si vystačil s jednoduchým editorem (už teď slyším, jak všichni
+administrátoři volají hurá ;–).</para>
+<para>Pokud by se navíc výrobci jednotlivých druhů aplikací shodli na
+společných formátech, těžili by z toho především uživatelé. Kdyby
+například pro ukládání záložek používal Internet Explorer i Netscape
+Navigator stejný formát vycházející z XML, byl by konec
+nepříjemnostem s konverzí záložek při přechodu z jednoho
+typu prohlížeče na druhý. Navíc by šlo adresy našich oblíbených
+stránek velice snadno poslat komukoliv e-mailem — bylo by
+jedno, jaký kdo používá prohlížeč.</para>
+<para>Pokud mají informační a komunikační systémy fungovat efektivně,
+je potřeba, aby se používaly jednotné formáty dat. Bez nich se spousta
+prostředků zbytečně vyplýtvá na implementaci různých pomocných utilit
+a modulů, které umožní spolupráci softwaru od různých výrobců. Dnes si
+je toho vědoma většina komerčních firem i akademických institucí.
+Profesní sdružení proto vytvářejí formáty založené na XML, které
+vyhovují jejich potřebám.</para>
+
+<indexterm class="endofrange" startref="idxvyuziti">
+</indexterm>
+</section>
+
+</section>
+</chapter>
+
+<index/>
+
+</book>

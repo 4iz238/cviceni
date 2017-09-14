@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xml:lang="cs" xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <title>MathML test</title>
+  
+  <para>Zlomek <inlineequation><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mi>n</mi></mfrac></math></inlineequation></para>
+  
+  <equation>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>x</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>-</mo>
+            <mi>b</mi>
+          </mrow>
+          <mo>±</mo>
+          <msqrt>
+            <msup>
+              <mi>b</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <mrow>
+              <mn>4</mn>
+              <mo>&#x02062;</mo>
+              <mi>a</mi>
+              <mo>&#x02062;</mo>
+              <mi>c</mi>
+            </mrow>
+          </msqrt>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#x02062;</mo>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+    </math>
+  </equation>
+
+  <equation xml:id="eq1">
+    <title></title>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>x</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>-</mo>
+            <mi>b</mi>
+          </mrow>
+          <mo>±</mo>
+          <msqrt>
+            <msup>
+              <mi>b</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <mrow>
+              <mn>4</mn>
+              <mo>&#x02062;</mo>
+              <mi>a</mi>
+              <mo>&#x02062;</mo>
+              <mi>c</mi>
+            </mrow>
+          </msqrt>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#x02062;</mo>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+    </math>
+  </equation>
+
+  <para>Jak je vidět z rovnice <xref linkend="eq1"/>…</para>
+
+</article>

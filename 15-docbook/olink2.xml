@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+<title>Druhá kniha s ukázkou OLink</title>
+
+
+<chapter xml:id="kap1">
+<title>Kapitola</title>
+
+
+<para>První skoro prázdná kapitola.</para>
+
+<figure xml:id="obr"><info><title>Testovací obrázek</title></info>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="schema.png" format="PNG"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+</chapter>
+
+<chapter xml:id="kap2">
+<title>Druhá kapitola</title>
+
+
+<para>Pro ilustraci se podíváme zpět do kapitoly <olink targetdoc="OLink1" targetptr="kap1"/>.</para>
+
+</chapter>
+
+</book>

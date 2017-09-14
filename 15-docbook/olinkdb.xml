@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<targetset xmlns:xi="http://www.w3.org/2001/XInclude"> 
+  <targetsetinfo> 
+    Popis databáze cílů odkazů. Tato databáze je pouze jednoduchá 
+    testovací pro účely školení.
+   </targetsetinfo>
+
+  <!-- Site map for generating relative paths between documents -->
+  <sitemap> 
+    <dir> 
+      <dir name="book1">
+        <document targetdoc="OLink1"> 
+          <xi:include href="ol1target.db"/>
+        </document>
+      </dir>
+      <dir name="book2">
+        <document targetdoc="OLink2"> 
+          <xi:include href="ol2target.db"/>
+        </document>
+      </dir>
+    </dir>
+  </sitemap>
+</targetset>

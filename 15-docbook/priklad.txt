@@ -1,0 +1,205 @@
+
+Diskusní skupiny
+
+   Jelikož již víte, že se svými pøáteli, nepøáteli i zbytkem svìta
+   mùžete udržovat kontakt prostøednictvím e-mailu, dovolte mi pøedstavit
+   vám ještì Usenet a s ním internetové diskuzní skupiny. Díky velmi
+   rozšíøené internetové službì WWW není v Èechách Usenet pøíliš známý,
+   pøestože jde o nìco velmi dùležitého a praktického. Ostatnì to poznáte
+   sami.
+   
+   Právì vy, budoucí "linuxáci", byste se mìli nauèit využívat výhodnost
+   tohoto média ke svému užitku. Krátce lze Usenet charakterizovat jako
+   jednu ohromnou virtuální nástìnku, na kterou mohou uživatelé z celého
+   svìta pøipínat své dotazy, nabídky èi komentáøe. Aèkoli se o Usenetu
+   obèas hovoøí jako prostoru, kde je vše dovoleno, existuje pár
+   pravidel, které se tu dodržují.
+   
+   Aby v tìch mnoha tisících diskuzních skupin zavládl nìjaký poøádek, je
+   Usenet uspoøádán do jakési hierarchie. Nejdùležitìjší mezinárodní
+   skupiny jsou rozdìleny do kategorií (uzlù) alt, comp, news, sci, soc,
+   talk. Každá z tìchto a dalších kategorií je pak dále a dále dìlena do
+   dalších uzlù podle zamìøení. To umožòuje snadnìjší nalezení diskuzní
+   skupiny se zamìøením, které uživatele zajímá.
+   
+   Nejdùležitìjší vìtve této hierarchie existují také v èeském jazyce a
+   jsou sdruženy pod spoleèným uzlem cz nejvyšší úrovnì. Diskuzní skupiny
+   se zamìøením na Linux najdete v èeské struktuøe pod cz.comp, pøièemž
+   cz znamená czech a comp je zkratka za anglický výraz pro poèítaè,
+   computer.
+   
+1. Jak funguje Usenet
+
+   Usenet si mùžete pøedstavit jako spoleèenství volnì provázaných
+   poèítaèù, které si mezi sebou vymìòují zprávy. Tìmto poèítaèùm se øíká
+   newsservery. Èlánek (v anglickém žargonu "posting") odeslaný na Usenet
+   je doruèen každému newsserveru, který se na Usenetu podílí a sdílí
+   hierarchii, do níž byl èlánek adresován. Každý z tìchto strojù tak
+   obdrží vlastní kopii èlánku, kterou pak mohou èíst uživatelé tohoto
+   newsserveru a pokud chtìjí, mohou na nìj odpovìdìt.
+   
+2. Jak èíst a odesílat èlánky
+
+   Pøedevším byste si mìli udìlat jasno v otázce, zda s èlánky diskuzních
+   skupin pracovat v režimu on-line èi off-line.
+   
+   Tak zvaný on-line pøístup ke zprávám Usenetu znamená, že každý èlánek
+   je z vašeho newsserveru naèítán zvláš, podle vašich požadavkù.
+   Jste-li tedy k síti Internet pøipojeni prostøednictvím telefonní sítì
+   a modemu, musí být spojení s providerem aktivní po celou dobu, kdy
+   chcete s Usenetem pracovat. To mùže být pøi souèasných cenách
+   telefonních hovorù pomìrnì nákladná záležitost. Z toho dùvodu je tu
+   možnost èíst a odpovídat na èlánky v režimu off-line.
+   
+   Off-line pøístup vyžaduje, abyste na svùj poèítaè nainstalovali
+   vlastní malý newsserver. Nemìjte však obavy, jak brzy uvidíte, zdá se
+   to složitìjší, než to ve skuteènosti je. Prostøednictvím pøíslušného
+   balíèku programù, který si vyberete, si pøi off-line pøístupu naráz
+   stáhnete všechny nové èlánky ze skupin, které vás zajímají, a uložíte
+   je na váš pevný disk. Poté mùžete spojení se svým providerem ukonèit a
+   všechny èlánky si pohodlnì, beze stresu a dalších nákladù pøeèíst a
+   odpovìdìt na nì.
+   
+   Komunita uživatelù Usenetu je tak trochu spiklenecká a obzvláš to
+   platí o té, která se soustøedí okolo Linuxu. Proto, døíve než se
+   pustíme do praxe, upozornìme na nìkolik zásad, kterých byste se mìli
+   držet, abyste se zbyteènì nedostali do problémù. Nemìjte však strach,
+   sotva si osvojíte pár jednoduchých pravidel a nauèíte se používat
+   trochu žargonu, nikdo nepozná, že na Usenetu ještì nejste starý
+   ostøílený mazák. Zaènìme tím nejdùležitìjším: používejte své pravé
+   jméno. Na èeském Usenetu se konvence používání pravého jména dodržuje,
+   a lidé, kteøí se schovávají za pøezdívkami typu Bugs Bunny èi
+   Terminátor, vìtšinou nejsou pøíliš oblíbení.
+   
+   Kromì toho se na Usenetu užívá a rozvíjí vlastní slang: místo o mailu
+   se zde mluví o èlánku èi pøíspìvku (v angl. article èi posting). Hojnì
+   se zde také mùžete setkat s obrázky tzv. "smajlíkù" èi rùznými
+   akronymy. Slovník tìch nejužívanìjších shrnují tabulky 1 -
+   "Standardní repertoár tzv. smajlíkù" a 2 - "Nejbìžnìjší akronymy".
+   
+   Tabulka 1. Standardní repertoár tzv. "smajlíkù"
+   Symbol Jméno Význam
+   ;-) mrkající smajlík Sarkastické až zlomyslné mrknutí, spojené
+   s prosbou o shovívavost
+   :-) standardní smajlík Upozoròuje, že nìco je mínìno jako vtip
+   èi ironická poznámka. Mùže také naznaèovat, že se na nìco tìšíte.
+   :-/ velkorysý úsmìv Vìtšinou znamená odpuštìní èi smír
+   :-> èertovský úsmìv Upozoròuje na opravdu velmi hnìvivou poznámku
+   :-( Tragický smajlík Ukazuje na nìco velmi nepøíjemného
+   èi deprimujícího
+   
+   Tabulka 2. Nejbìžnìjší akronymy
+   Akronym \ Èeský význam
+   IMHO in my humble opinion dle mého skromného názoru
+   BTW by the way mimochodem
+   FAQ frequently asked questions èasto kladené otázky (a odpovìdi na nì)
+   ASAP as soon as possible co nejdøíve
+   AFAIK as far as I know pokud je mi známo
+   AKA also known as známý též jako/pod jménem
+   LOL laughing out loudly nahlas se smìji
+   OTOH on the other hand na druhou stranu
+   THX Thanks Dìkuji.
+   TIA thanks in advance pøedem dìkuji
+   HTH hope that halps doufám, že (vám) to pomùže
+   YMMV your mileage may vary mùžete to vidìt jinak, mùžete dojít k jiným
+   výsledkùm
+   ROTFL rolling on the floor laughing ležím na zemi a smìji se, až se za
+   bøicho popadám
+   RTFM read the fucking manual Pøeètìte si kur.. manuál/dokumentaci
+   
+   Rozhodnì není špatný nápad, nìkolik dní diskuzní skupinu pouze èíst,
+   než èlovìk získá dostateèný cit pro zpùsob vyjadøování a chování, aby
+   mohl zaslat vlastní pøíspìvek.
+   
+   Buïte ohleduplní a vyhýbejte se zbyteèným citacím pùvodního pøíspìvku.
+   Ve své odpovìdi na nìjaký èlánek citujte z originálu jen to
+   nejpodstatnìjší. Dbejte též na to, abyste citovali správnì.
+   
+   Vìtšina diskuzních skupin nabízí také tzv. FAQ, tedy soupis nejèastìji
+   kladených otázek a odpovìdí na nì. Pøeètìte si je! Mnoho z vašich
+   otázek v nich již bude patrnì zodpovìzeno. Ušetøíte se tím možná ètení
+   nìkolika nepøíjemnì popuzených odpovìdí na vaše dotazy. Nezapomínejte
+   pøi tom na jedno: pro vás mùže být otázka èi problém zcela nový,
+   pravidelný ètenáø skupiny však již stejnou otázku vidìl možná stokrát
+   a stokrát na ni odpovìdìl. A tak se nedivte, že jeho nadšení znovu
+   odpovídat brzy ochabne.
+   
+Tip
+
+   Pokud neexistují FAQ, zkuste najít a prolistovat alespoò archiv
+   starších èlánkù. Èasto jej najdete i na Webu s možností vyhledávání.
+   
+3. Jak se v Tinu pohybovat
+
+   Pro pohyb v obrazovkách Tinu potøebujete v zásadì pouze kurzorové
+   klávesy a klávesu q pro návrat. Nyní, když máte vybrány skupiny, které
+   chcete navštìvovat a pomocí pøíkazu fetchnews z balíku Leafnode jste
+   si stáhli èlánky od svého poskytovatele, mìli byste po spuštìní Tinu
+   povelem tin -r vidìt obrazovku podobné té na obrázku 1 - "Obrazovka
+   skupin". 
+   
+   Obrázek 1. Obrazovka skupin
+   
+                              Obrazovka skupin
+                                      
+   První sloupec ukazuje èíslo skupiny, druhý poèet nepøeètených èlánkù
+   ve skupinì. Tak napøíklad skupina cz.comp.linux je v seznamu na
+   obrázku 1 - "Obrazovka skupin" vedena pod èíslem 9 a obsahuje ještì
+   192 nepøeètených èlánkù.
+   
+   Pomocí šipek nahoru a dolù lze v seznamu skupin pojíždìt tam a zpìt.
+   Pokud chcete nìjakou skupinu (napøíklad cz.comp.linux) èíst, pøesuòte
+   ukazatel na pøíslušný øádek a stisknìte šipku doprava. Objeví se
+   seznam pøíspìvkù (obr. 2 - "Seznam èlánkù"). Opustit jej mùžete
+   stiskem šipky vlevo.
+   
+   Obrázek 2. Seznam èlánkù
+   
+                               Seznam èlánkù
+                                      
+   Na další možnosti a klávesové zkratky se mùžete podívat v on-line
+   nápovìdì. K vypnutí resp. zapnutí mininápovìdy, které se zobrazuje ve
+   spodní èásti obrazovky, slouží klávesa H. Pokud chcete podrobnìjší
+   informace, stisknìte h.
+   
+   Seznam èlánkù vypadá nìjak takto:
+1 +    31 Vyber kancelarskeho baliku   Daniel Smolik
+2 +  2 19 pocet uzivatelu IMPu         Jan Satko
+3 +  3 34 init                         Vladimír Beneš
+4 + 11 17 Pozor na virus I love you    Martin Reiser
+5 +  3 37 prog C - jak tisknout?       Radek Skokan
+
+   První èíslo za znakem + udává poøadové èíslo vlákna, za ním následuje
+   poèet nepøeètených pøíspìvkù náležejících do vlákna.
+   
+Poznámka
+
+   Pracujeme zde s nastavením
+ 9. Show only unread articles        :  ON
+10. Show only groups with unread arts:  ON
+
+   Zobrazeny tedy jsou pouze nepøeètené èlánky a skupiny, které obsahují
+   nìjaký dosud nepøeètený èlánek. Stiskem klávesy R docílíte pøepnutí do
+   varianty, kdy jsou ukázány všechny èlánky, tedy ty pøeètené
+   i nepøeètené, a zpìt.
+   
+   Podobnì jako v seznamu skupin mùžete i zde použít pravou šipku
+   k zobrazení èlánku, který jste vybrali, a levou šipku pro návratu
+   zpìt.
+   
+   Obrázek 3. Takto zobrazuje Tin èlánky
+   
+                         Takto zobrazuje Tin èlánky
+                                      
+   Tin je upovídaný program a nìkteré akce si od vás nechá pro jistotu
+   potvrdit, než je provede. Na poslední øádce v takovém pøípadì zobrazí
+   prompt, na který èasto staèí odpovìdìt pouhým stisknutím klávesy
+   Enter, chcete-li následovat standardní postup. Odpovíte-li tak
+   napøíklad na dotaz:
+Do you really want to quit? (y/n): y
+
+   stiskem klávesy Enter, Tin se ukonèí. Pokud však chcete pokraèovat ve
+   ètení zpráv, musíte výslovnì stisknout n.
+   
+   Øady dotazù, které vám Tin mùže klást (napø. Do you really want to
+   quit? (y/n): y) se mùžete zbavit pouhým stiskem klávesy Esc

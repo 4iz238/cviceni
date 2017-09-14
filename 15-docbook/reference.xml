@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reference xmlns="http://docbook.org/ns/docbook" version="5.0"
+           xml:lang="cs">
+  <title>Funkce pro práci s e-mailem</title>
+  <titleabbrev>Mail</titleabbrev>
+  <partintro>
+    <para>Následující funkce umožňují pohodlnou práci s e-mailem.</para>
+  </partintro>
+
+  <refentry xml:id="function.mail">
+    <refnamediv>
+      <refname>mail</refname>
+      <refpurpose>Odeslání e-mailu</refpurpose>
+    </refnamediv>
+    <refsection>
+      <title>Popis</title>
+      <funcsynopsis>
+        <funcprototype>
+          <funcdef>bool <function>mail</function></funcdef>
+          <paramdef>string <parameter>to</parameter></paramdef>
+          <paramdef>string <parameter>subject</parameter></paramdef>
+          <paramdef>string <parameter>message</parameter></paramdef>
+          <paramdef>string <parameter>additional_headers</parameter></paramdef>
+        </funcprototype>
+      </funcsynopsis>
+      <para><function>Mail</function> automaticky odmailuje vzkaz
+specifikovaný v <parameter>message</parameter> příjemci
+specifikovanému v <parameter>to</parameter>. Přidáním čárky mezi
+adresami v <parameter>to</parameter> můžete specifikovat více
+příjemců.</para>
+    </refsection>
+  </refentry>
+
+  <refentry xml:id="function.ezmlm-hash">
+    <refnamediv>
+      <refname>ezmlm_hash</refname>
+      <refpurpose>Počítá hash hodnotu potřebnou pro EZMLM</refpurpose>
+    </refnamediv>
+    <refsection>
+      <title>Popis</title>
+      <funcsynopsis>
+        <funcprototype>
+          <funcdef>int <function>ezmlm_hash</function></funcdef>
+          <paramdef>string <parameter>addr</parameter></paramdef>
+        </funcprototype>
+      </funcsynopsis>
+    </refsection>
+  </refentry>
+</reference>

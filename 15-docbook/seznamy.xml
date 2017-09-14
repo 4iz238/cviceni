@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <title>Kapitola se seznamy</title>
+  
+  <itemizedlist>
+    <listitem>
+      <para>jablka</para>
+    </listitem>
+    <listitem>
+      <para>hrušky</para>
+    </listitem>
+    <listitem>
+      <para>švestky</para>
+    </listitem>
+  </itemizedlist>
+
+  <orderedlist>
+    <listitem>
+      <para>Praha</para>
+    </listitem>
+    <listitem>
+      <para>Brno</para>
+    </listitem>
+    <listitem>
+      <para>Bratislava</para>
+    </listitem>
+  </orderedlist>
+
+  <itemizedlist>
+    <title>Ovoce:</title>
+    <listitem>
+      <para>jablka</para>
+    </listitem>
+    <listitem>
+      <para>hrušky</para>
+    </listitem>
+    <listitem>
+      <para>švestky</para>
+    </listitem>
+  </itemizedlist>
+
+  <orderedlist continuation="continues">
+    <title>Číslovaný seznam může pokračovat v přerušeném číslování</title>
+    <listitem>
+      <para>Ostrava</para>
+    </listitem>
+    <listitem>
+      <para>Plzeň</para>
+    </listitem>
+  </orderedlist>
+
+  <para>Následující seznam bude číslován římskými číslicemi</para>
+
+  <orderedlist numeration="upperroman">
+    <listitem>
+      <para>SGML</para>
+    </listitem>
+    <listitem>
+      <para>HTML</para>
+    </listitem>
+    <listitem>
+      <para>XML</para>
+    </listitem>
+  </orderedlist>
+
+  <variablelist>
+    <varlistentry>
+      <term>XML</term>
+      <listitem>
+        <para>eXtensible Markup Language</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>SGML</term>
+      <listitem>
+        <para>Standard Generalized Markup Language</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>HTML</term>
+      <term>XHTML</term>
+      <listitem>
+        <para>Jazyky pro tvorbu webových stránek odvozené od SGML,
+        resp. XML.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term><emphasis>XSL</emphasis></term>
+      <listitem>
+        <para>XSL = eXtensible Stylesheet Language. Tento popis
+        uděláme delší ať je vidět, že se zalomí do několiak řádek.</para>
+        <para>Můžeme samozřejmě použít i více odstavců.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+
+</chapter>

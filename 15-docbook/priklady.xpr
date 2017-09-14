@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns=""
+            positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="priklady.xpr">
+        <folder name="Cvičení">
+            <file name="priklad.html"/>
+            <file name="priklad.txt"/>
+        </folder>
+        <folder name="Další ukázky">
+            <file name="cas.xml"/>
+            <file name="co.xsl"/>
+            <file name="html-rejstrik.xsl"/>
+            <file
+                name="kniha-obsah-na-konci.xml"/>
+            <file
+                name="kniha-obsah-na-konci2.xml"/>
+            <file name="matematika.xml"/>
+            <file name="tisk-centrovane-tabulky.xsl"/>
+            <file name="tisk-fop.xsl"/>
+            <file
+                name="tisk-klavesy.xsl"/>
+            <file
+                name="tisk-necislovat.xsl"/>
+            <file
+                name="tisk-obsah-na-konci.xsl"/>
+            <file
+                name="tisk-obsah-na-konci2.xsl"/>
+            <file
+                name="tisk-odsazovani.xsl"/>
+            <file
+                name="tisk-remark.xsl"/>
+            <file
+                name="tisk-rovnice.xsl"/>
+            <file
+                name="tisk-seznamy.xsl"/>
+            <file
+                name="tisk-tucnakurziva.xsl"/>
+            <file
+                name="tisk-zahlavi.xsl"
+            />
+        </folder>
+        <folder name="Dokumenty">
+            <file name="callouts.xml"/>
+            <file name="clanek.xml"/>
+            <file name="faqukazka.xml"/>
+            <file name="inline.xml"/>
+            <file name="kapitola.xml"/>
+            <file name="kniha.xml"/>
+            <file name="literatura.xml"/>
+            <file name="obrazky.xml"/>
+            <file name="odkazy.xml"/>
+            <file name="prvni.xml"/>
+            <file name="reference.xml"/>
+            <file name="seznamy.xml"/>
+            <file name="tabulky.xml"/>
+            <file name="trida.xml"/>
+            <file name="uvod.xml"/>
+            <file
+                name="velkakniha.xml"
+            />
+        </folder>
+        <folder name="OLink">
+            <file
+                name="ol1target.db"/>
+            <file name="ol2target.db"/>
+            <file name="olink1.xml"/>
+            <file name="olink2.xml"/>
+            <file name="olinkdb.xml"
+            />
+        </folder>
+        <folder name="Úpravy stylů">
+            <file name="html-chunk-css.xsl"/>
+            <file name="html-chunk.xsl"/>
+            <file name="html-common.xsl"/>
+            <file name="html-css.xsl"/>
+            <file name="html-normal.xsl"/>
+            <file
+                name="html-rejstrik.xsl"/>
+            <file name="html.xsl"/>
+            <file name="htmlhelp.xsl"/>
+            <file name="jinats.xsl"/>
+            <file name="tisk-vlastnosti.xsl"/>
+            <file name="tisk.xsl"/>
+            <file name="tiskcs.xsl"/>
+            <file name="tiskml.xsl"/>
+            <file name="ts-sablona.xml"/>
+        </folder>
+    </projectTree>
+</project>

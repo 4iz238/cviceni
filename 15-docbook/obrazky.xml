@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <title>Kapitola s obrázky</title>
+
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="schema.svg" format="SVG"/>
+    </imageobject>
+    <imageobject>
+      <imagedata fileref="schema.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <para>Schéma zpracování XML pro potřeby zobrazení – delší text, pro který se generuje
+      textový popis</para>
+    </textobject>
+    <textobject>
+      <phrase>Schéma stylování XML – krátké do atributu ALT</phrase>
+    </textobject>
+  </mediaobject>
+
+  <figure>
+    <title>Obrázek s popisem zvětšený na 200 % volného místa</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="schema.png" scale="200"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek s popisem zmenšený na 25 % volného místa</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="schema.png" scale="25"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek s popisem roztažený na šířku stránky</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="schema.png" width="100%"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek s šířkou 4cm zarovnaný doprava</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="schema.png" contentwidth="4cm" align="right"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek je podle potřeby proporcionálně zvětšen do plochy 2 × 5 cm</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata width="2cm" depth="5cm" fileref="schema.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek zmenšený na 50 % skutečné velikosti</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata contentwidth="50%" fileref="schema.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek zobrazený jako 2 × 10 cm</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata contentwidth="2cm" contentdepth="10cm" fileref="schema.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek se umístí do prostoru 8 × 8 cm
+    a zmenší se na 1/2 původní velikosti</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata width="8cm" depth="8cm" scale="50" fileref="schema.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure>
+    <title>Obrázek zobrazený ve své originální velikosti</title>
+    
+    <mediaobject>
+      <imageobject>
+        <imagedata contentwidth="100%" contentdepth="100%" fileref="schema.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>Zařazení obrázku do odstavce <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="sipka.png"/>
+      </imageobject>
+      <textobject>
+        <phrase>⇒</phrase>
+      </textobject>
+    </inlinemediaobject> a text pokračuje dál.</para>
+
+</chapter>

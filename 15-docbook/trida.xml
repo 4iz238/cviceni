@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <title>Ukázky definice tříd a rozhraní</title>
+  
+  <section>
+    <title>Třída v Javě</title>
+  
+    <classsynopsis language="java" class="class">
+      <ooclass>
+        <modifier>public</modifier>
+        <classname>TextFileWriter</classname>
+      </ooclass>
+      <ooclass>
+	<classname>HandlerBase</classname>
+      </ooclass>
+      <fieldsynopsis>
+	<modifier>private</modifier>
+	<type>Writer</type>
+	<varname>writer</varname>
+      </fieldsynopsis>
+      <fieldsynopsis>
+	<modifier>public</modifier>
+	<type>String</type>
+	<varname>writerName</varname>
+	<initializer>"MyWriter"</initializer>
+      </fieldsynopsis>
+      <methodsynopsis>
+        <modifier>static</modifier>
+        <modifier>public</modifier>
+        <void/>
+        <methodname>write</methodname>
+        <methodparam choice="req" rep="norepeat">
+            <type>ResultTreeFragment</type>
+          <parameter>frag</parameter>
+        </methodparam>
+        <methodparam choice="req" rep="norepeat">
+          <type>String</type>
+          <parameter>file</parameter>
+        </methodparam>
+        <exceptionname>SAXException</exceptionname>
+      </methodsynopsis>
+    </classsynopsis>
+  </section>
+
+  <section>
+    <title>Definice rozhraní v IDL</title>
+    
+    <classsynopsis class="interface" language="idl">
+      <oointerface>
+	<interfacename>Element</interfacename>
+      </oointerface>
+      <oointerface>
+	<interfacename>Node</interfacename>
+      </oointerface>
+      <fieldsynopsis>
+        <modifier>readonly</modifier>
+        <modifier>attribute</modifier>
+        <type>DOMString</type>
+        <varname>tagName</varname>
+      </fieldsynopsis>
+      <methodsynopsis>
+        <type>DOMString</type>
+        <methodname>getAttribute</methodname>
+        <methodparam choice="req" rep="norepeat">
+          <modifier>in</modifier>
+          <type>DOMString</type>
+          <parameter>name</parameter>
+        </methodparam>
+      </methodsynopsis>
+      <methodsynopsis>
+        <void/>
+        <methodname>setAttribute</methodname>
+        <methodparam choice="req" rep="norepeat">
+          <modifier>in</modifier>
+          <type>DOMString</type>
+          <parameter>name</parameter>
+        </methodparam>
+        <methodparam choice="req" rep="norepeat">
+          <modifier>in</modifier>
+          <type>DOMString</type>
+          <parameter>value</parameter>
+        </methodparam>
+        <exceptionname>DOMException</exceptionname>
+      </methodsynopsis>
+    </classsynopsis>
+  </section>
+</chapter>

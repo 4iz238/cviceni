@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <info>
+    <title>Lehký úvod do XML</title>
+    <author>
+      <personname><firstname>Jiří</firstname><surname>Kosek</surname></personname>
+      <affiliation>
+        <orgname>Vysoká škola ekonomická v Praze</orgname>
+        <address>E-mail: <email>jirka@kosek.cz</email>
+Web: <uri>http://www.kosek.cz</uri></address>
+      </affiliation></author>
+    <confgroup>
+      <confdates>15. až 18. února 2001</confdates>
+      <conftitle>SLT 2001</conftitle>
+      <confnum>2</confnum>
+    </confgroup>
+    <abstract>
+      <para>Příspěvek posluchače seznámí s jazykem XML, který přináší
+      mnoho revolučních změn do oblasti elektronického publikování,
+      výměny a sdílení dat a elektronického obchodu. Kromě základních
+      principů XML se příspěvek zmíní i o souvislosti s dalšími
+      navazujícími technologiemi (stylové jazyky, jazyky pro definici
+      struktury dokumentu, dotazovací jazyky, jazyky pro tvorbu
+      odkazů).</para>
+    </abstract>
+  </info>
+  <section>
+    <title>Úvod</title>
+    <para>Málokterá technologie se rozšířila tak rychle jako XML. Před
+    třemi lety o ní skoro nikdo nic nevěděl, a dnes se přitom používá
+    v mnoha aplikacích. Budeme-li se držet přesné definice zjistíme,
+    že XML (eXtensible Markup Language) je jednoduchý rozšiřitelný
+    značkovací jazyk. Co si pod touto definicí představíme záleží
+    zejména na naší fantazii. V následujícím příspěvku se proto
+    pokusím vysvětlit, co je to XML a k čemu se dá použít.</para>
+    <para>...</para>
+  </section>
+</article>

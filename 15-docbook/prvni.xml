@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="cs">
+  <info>
+    <title>První pokusná kniha</title>
+    <author>
+      <personname>
+	<firstname>Jiří</firstname>
+	<surname>Kosek</surname>
+      </personname>
+    </author>
+  </info>
+  <preface>
+    <title>Úvod</title>
+    <para>Odstavec textu.</para>
+    <para>...</para>
+  </preface>
+  <chapter>
+    <title>První kapitola</title>
+    <para>Text první kapitoly</para>
+    <para>...</para>
+  </chapter>
+  <chapter>
+    <title>Druhá kapitola</title>
+    <para>Text druhé kapitoly</para>
+    <para>...</para>
+  </chapter>
+  <appendix>
+    <title>První příloha</title>
+    <para>Text přílohy</para>
+    <para>...</para>
+  </appendix>
+</book>

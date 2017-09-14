@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bibliography xmlns="http://docbook.org/ns/docbook" 
+	      version="5.0" xml:id="literatura"
+	      xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Literatura a další zajímavé odkazy</title>
+
+<biblioentry>
+<abbrev>REC-XSLT</abbrev>
+<editor><personname><firstname>James</firstname><surname>Clark</surname></personname></editor>
+<citetitle><link xlink:href="http://www.w3.org/TR/xslt">XSL Transformations
+(XSLT) Version 1.0</link></citetitle>
+<publishername>W3C</publishername>
+<pubdate>1999</pubdate>
+</biblioentry>
+
+<biblioentry xml:id="bib.ptux">
+<citetitle><link xlink:href="http://www.cranesoftwrights.com">Practical
+Transformation Using XSLT and XPath</link></citetitle>
+<publisher>
+<publishername>Crane Softwrights</publishername>
+</publisher>
+<pubdate>2000</pubdate>
+<biblioid class="isbn">1-894049-04-7</biblioid>
+</biblioentry>
+
+<biblioentry>
+<abbrev>SGML-NT</abbrev>
+<author><personname><firstname>Markus</firstname><surname>Hoenicka</surname></personname></author>
+<citetitle>SGML for NT</citetitle>
+<subtitle>A brief tutorial how to set up a free SGML editing and
+publishing system for Windows NT</subtitle>
+<releaseinfo>URL: <link xlink:href="http://ourworld.compuserve.com/homepages/hoenicka_markus/ntsgml.html"/></releaseinfo>
+</biblioentry>
+
+<biblioentry>
+<abbrev>XPATHTUT</abbrev>
+<author><personname><firstname>Miloslav</firstname><surname>Nič</surname></personname></author>
+<citetitle><link xlink:href="http://www.zvon.org/xxl/XPathTutorial/General/examples.html">XPath
+Tutorial</link></citetitle>
+</biblioentry>
+
+<biblioentry>
+<abbrev>XSLTUT</abbrev>
+<author><personname><firstname>Miloslav</firstname><surname>Nič</surname></personname></author>
+<citetitle><link xlink:href="http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html">XSLT Tutorial</link></citetitle>
+</biblioentry>
+
+<biblioentry>
+<abbrev>GNU-WWW</abbrev>
+<author><personname><firstname>Lenka</firstname><surname>Třísková</surname></personname></author>
+<citetitle>GNU nástroje pro tvorbu WWW stránek</citetitle>
+<publisher>
+<publishername>Grada Publishing</publishername>
+</publisher>
+<pubdate>2000</pubdate>
+<biblioid class="isbn">ISBN 80-7169-861-X</biblioid>
+<pagenums>244</pagenums>
+</biblioentry>
+
+<biblioentry>
+<abbrev>TDG</abbrev>
+<authorgroup>
+<author><personname><firstname>Norman</firstname><surname>Walsh</surname></personname></author>
+<author><personname><firstname>Leonard</firstname><surname>Muellner</surname></personname></author>
+</authorgroup>
+<citetitle>DocBook</citetitle>
+<subtitle>The Definitive Guide</subtitle>
+<pubdate>1999</pubdate>
+<edition>1</edition>
+<biblioid class="isbn">ISBN: 156592-580-7</biblioid>
+<pagenums>648</pagenums>
+<releaseinfo>URL: <link xlink:href="http://www.docbook.org/tdg/html/docbook.html"/></releaseinfo>
+</biblioentry>
+
+<biblioentry>
+<abbrev>TableExchange</abbrev>
+<author><personname><firstname>Norman</firstname><surname>Walsh</surname></personname></author>
+<citetitle>Organization for the Advancement of Structured Information
+Standards (OASIS) Technical Memorandum TR 9901:1999</citetitle>
+<subtitle>XML Exchange Table Model Document Type Definition</subtitle>
+<pubdate>1999</pubdate>
+<publisher>
+<publishername>OASIS</publishername>
+</publisher>
+<releaseinfo>URL: <link xlink:href="http://www.oasis-open.org/html/tm9901.htm"/></releaseinfo>
+</biblioentry>
+
+</bibliography>
