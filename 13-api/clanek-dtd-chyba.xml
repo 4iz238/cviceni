@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="iso-8859-2"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE clanek SYSTEM "clanek.dtd">
 <clanek>
   <zahlavi>
-    <autor>Jiří Kosek</autor>
+    <autor>JiĹĂ­ Kosek</autor>
     <rubrika>Aktuality</rubrika>
-    <nazev>EU chce použít XML při rozvoji e-businessu</nazev>
+    <nazev>EU chce pouĹžĂ­t XML pĹi rozvoji e-businessu</nazev>
   </zahlavi>
-  <perex>Evropská komise si nechala vypracovat zprávu, která se zabývá
-možnostmi rozvoje elektronického obchodování zejména pro malé a
-střední podnikatele. Výsledky studie možná někoho překvapí --
-e-business se bude rozvíjet díky použití XML a lepších vyhledávacích
-technologií.</perex>
-  <para>Studii pro Evropskou komisi vypracovala společnost
-InfoConsult, která sdružuje několik předních evropských konzultantů,
-kteří se nezaměřují jen na podnikání, ale i na informační a
-komunikační technologie. Podle nich je dnes největší překážkou pro
-uplatnění e-businessu <em>obtížné vyhledávání informací</em>. Pokud
-hledáme na Internetu určitý výrobek, službu či firmu, musíme použít
-klasické vyhledávací služby, které nás zahltí stovkami, mnohdy
-neužitečných, odkazů.</para>
-  <para>Studie navrhuje vytvoření sady XML tagů, kterými by se na
-webových stránkách označovaly jednotlivé údaje o firmě, jejích
-výrobcích a službách. Současně by se měla vytvořit nová vyhledávací
-služba, která by "rozuměla" nově definovaným tagům. Pomocí této služby
-by pak každý mohl velice snadno nalézt informace nebo výrobek, který
-potřebuje.</para>
-  <para>Jistě krásná idea však vyvolává mnoho praktických otázek a
-problémů. První překážkou je zatím slabá podpora XML v běžně
-používaných prohlížečích. Doplnění speciálních tagů do současných
-webových stránek by nemuselo dělat dobře některým starším prohlížečům.
-Aby byl celý systém opravdu užitečný, musela by speciální tagy na
-svých stránkách používat většina firem. Jazyk XML zatím však autoři
-webových stránek neovládají a dosud není na trhu cenově dostupný
+  <perex>EvropskĂĄ komise si nechala vypracovat zprĂĄvu, kterĂĄ se zabĂ˝vĂĄ
+moĹžnostmi rozvoje elektronickĂŠho obchodovĂĄnĂ­ zejmĂŠna pro malĂŠ a
+stĹednĂ­ podnikatele. VĂ˝sledky studie moĹžnĂĄ nÄkoho pĹekvapĂ­ --
+e-business se bude rozvĂ­jet dĂ­ky pouĹžitĂ­ XML a lepĹĄĂ­ch vyhledĂĄvacĂ­ch
+technologiĂ­.</perex>
+  <para>Studii pro Evropskou komisi vypracovala spoleÄnost
+InfoConsult, kterĂĄ sdruĹžuje nÄkolik pĹednĂ­ch evropskĂ˝ch konzultantĹŻ,
+kteĹĂ­ se nezamÄĹujĂ­ jen na podnikĂĄnĂ­, ale i na informaÄnĂ­ a
+komunikaÄnĂ­ technologie. Podle nich je dnes nejvÄtĹĄĂ­ pĹekĂĄĹžkou pro
+uplatnÄnĂ­ e-businessu <em>obtĂ­ĹžnĂŠ vyhledĂĄvĂĄnĂ­ informacĂ­</em>. Pokud
+hledĂĄme na Internetu urÄitĂ˝ vĂ˝robek, sluĹžbu Äi firmu, musĂ­me pouĹžĂ­t
+klasickĂŠ vyhledĂĄvacĂ­ sluĹžby, kterĂŠ nĂĄs zahltĂ­ stovkami, mnohdy
+neuĹžiteÄnĂ˝ch, odkazĹŻ.</para>
+  <para>Studie navrhuje vytvoĹenĂ­ sady XML tagĹŻ, kterĂ˝mi by se na
+webovĂ˝ch strĂĄnkĂĄch oznaÄovaly jednotlivĂŠ Ăşdaje o firmÄ, jejĂ­ch
+vĂ˝robcĂ­ch a sluĹžbĂĄch. SouÄasnÄ by se mÄla vytvoĹit novĂĄ vyhledĂĄvacĂ­
+sluĹžba, kterĂĄ by "rozumÄla" novÄ definovanĂ˝m tagĹŻm. PomocĂ­ tĂŠto sluĹžby
+by pak kaĹždĂ˝ mohl velice snadno nalĂŠzt informace nebo vĂ˝robek, kterĂ˝
+potĹebuje.</para>
+  <para>JistÄ krĂĄsnĂĄ idea vĹĄak vyvolĂĄvĂĄ mnoho praktickĂ˝ch otĂĄzek a
+problĂŠmĹŻ. PrvnĂ­ pĹekĂĄĹžkou je zatĂ­m slabĂĄ podpora XML v bÄĹžnÄ
+pouĹžĂ­vanĂ˝ch prohlĂ­ĹžeÄĂ­ch. DoplnÄnĂ­ speciĂĄlnĂ­ch tagĹŻ do souÄasnĂ˝ch
+webovĂ˝ch strĂĄnek by nemuselo dÄlat dobĹe nÄkterĂ˝m starĹĄĂ­m prohlĂ­ĹžeÄĹŻm.
+Aby byl celĂ˝ systĂŠm opravdu uĹžiteÄnĂ˝, musela by speciĂĄlnĂ­ tagy na
+svĂ˝ch strĂĄnkĂĄch pouĹžĂ­vat vÄtĹĄina firem. Jazyk XML zatĂ­m vĹĄak autoĹi
+webovĂ˝ch strĂĄnek neovlĂĄdajĂ­ a dosud nenĂ­ na trhu cenovÄ dostupnĂ˝
 WYSIWYG editor pro XML.</para>
 </clanek>

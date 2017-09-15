@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 <zamestnanci>
   <zamestnanec oc="1164">
-    <jmeno>Procházka Karel</jmeno>
+    <jmeno>ProchĂˇzka Karel</jmeno>
     <sef>2021</sef>
   </zamestnanec>
   <zamestnanec oc="1168">
-    <jmeno>Novotná Alena</jmeno>
+    <jmeno>NovotnĂˇ Alena</jmeno>
     <sef>2021</sef>
   </zamestnanec>
   <zamestnanec oc="1230">
-    <jmeno>Klíma Josef</jmeno>
+    <jmeno>KlĂ­ma Josef</jmeno>
     <sef>1168</sef>
   </zamestnanec>
   <zamestnanec oc="1564">
@@ -17,6 +17,6 @@
     <sef>2021</sef>
   </zamestnanec>
   <zamestnanec oc="2021">
-    <jmeno>Kládová Adéla</jmeno>
+    <jmeno>KlĂˇdovĂˇ AdĂ©la</jmeno>
   </zamestnanec>
 </zamestnanci>

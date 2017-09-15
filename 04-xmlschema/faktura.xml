@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="iso-8859-2"?>
+<?xml version="1.0" encoding="utf-8"?>
 <faktura xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
          xsi:noNamespaceSchemaLocation="faktura.xsd"
 	       vystaveni="2000-02-02" splatnost="2000-02-16"
          cislo="2000/111">
   <odberatel>
-    <nazev>Poučená, a.s.</nazev>
-    <adresa>Široká 21, Praha 1, 110 00</adresa>
+    <nazev>PouÄenĂĄ, a.s.</nazev>
+    <adresa>Ĺ irokĂĄ 21, Praha 1, 110 00</adresa>
     <ico>0987654321</ico>
     <dic>007-0987654321</dic>
   </odberatel>
   <dodavatel>
     <nazev>XMLCompany, s.r.o.</nazev>
-    <adresa>Dlouhá 12, Praha 1, 110 00</adresa>
+    <adresa>DlouhĂĄ 12, Praha 1, 110 00</adresa>
     <ico>1234567890</ico>
     <dic>007-1234567890</dic>
   </dodavatel>
   <polozka>
-    <popis>Analýza nasazení XML v podnikovém IS</popis>
+    <popis>AnalĂ˝za nasazenĂ­ XML v podnikovĂŠm IS</popis>
     <cena>50000</cena>
     <dph>5</dph>
   </polozka>
   <polozka>
-    <popis>XML Editor - 10 licencí</popis>
+    <popis>XML Editor - 10 licencĂ­</popis>
     <cena mena="USD">5000</cena>
     <dph>5</dph>
   </polozka> 

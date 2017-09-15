@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osoby>
   <osoba>
-    <jméno>Pepa Tuzemec</jméno>
-    <RČ>681203/0123</RČ>
+    <jmĂ©no>Pepa Tuzemec</jmĂ©no>
+    <RÄŚ>681203/0123</RÄŚ>
   </osoba>
   <osoba>
-    <jméno>Pepa Cizinec</jméno>
+    <jmĂ©no>Pepa Cizinec</jmĂ©no>
     <pas>1234567</pas>
   </osoba>
   <osoba>
-    <jméno>Pepa Rozvědčík</jméno>
+    <jmĂ©no>Pepa RozvÄ›dÄŤĂ­k</jmĂ©no>
     <SSN>987654321</SSN>
   </osoba>
   <osoba>
-    <jméno>Pepa Pochybil</jméno>
+    <jmĂ©no>Pepa Pochybil</jmĂ©no>
     <pas>1234567</pas>
-    <RČ>681203/0123</RČ>
+    <RÄŚ>681203/0123</RÄŚ>
   </osoba>
 </osoby>

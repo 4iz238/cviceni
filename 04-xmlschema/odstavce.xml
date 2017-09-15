@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 <odstavce>
 
-<odstavec>Odstavce typicky obsahují <pojem>smíšený 
-obsah</pojem>. Text se může střídat
+<odstavec>Odstavce typicky obsahujĂ­ <pojem>smĂ­ĹˇenĂ˝ 
+obsah</pojem>. Text se mĹŻĹľe stĹ™Ă­dat
 s <odkaz url="http://www.kosek.cz">odkazy</odkaz> 
-a dalšími <pojem>elementy</pojem>.</odstavec>
+a dalĹˇĂ­mi <pojem>elementy</pojem>.</odstavec>
 
-<odstavec>Odstavec může obsahovat i jen text.</odstavec>
+<odstavec>Odstavec mĹŻĹľe obsahovat i jen text.</odstavec>
 
 <odstavec><pojem>Nebo jen element.</pojem></odstavec>
 

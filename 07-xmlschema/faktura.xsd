@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-2" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
   targetNamespace="urn:x-kosek:schemas:faktura:1.0" xmlns="urn:x-kosek:schemas:faktura:1.0"
   elementFormDefault="qualified">
@@ -58,20 +58,20 @@
   <xs:element name="cena">
     <xs:complexType>
       <xs:simpleContent>
-        <xs:extension base="částkaTyp">
-          <xs:attribute name="mena" type="kódMěnyTyp"/>
+        <xs:extension base="ÄĂĄstkaTyp">
+          <xs:attribute name="mena" type="kĂłdMÄnyTyp"/>
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
 
-  <xs:simpleType name="částkaTyp">
+  <xs:simpleType name="ÄĂĄstkaTyp">
     <xs:restriction base="xs:decimal">
       <xs:minInclusive value="0"/>
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:simpleType name="kódMěnyTyp">
+  <xs:simpleType name="kĂłdMÄnyTyp">
     <xs:restriction base="xs:string">
       <xs:enumeration value="CZK"/>
       <xs:enumeration value="DEM"/>

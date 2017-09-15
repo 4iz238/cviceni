@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-2"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
  <xsd:element name="faktura">
@@ -56,20 +56,20 @@
  <xsd:element name="cena">
   <xsd:complexType>
    <xsd:simpleContent>
-    <xsd:extension base="částkaTyp">
-     <xsd:attribute name="mena" type="kódMěnyTyp" />
+    <xsd:extension base="ÄĂĄstkaTyp">
+     <xsd:attribute name="mena" type="kĂłdMÄnyTyp" />
     </xsd:extension>
    </xsd:simpleContent>
   </xsd:complexType>
  </xsd:element>
 
- <xsd:simpleType name="částkaTyp">
+ <xsd:simpleType name="ÄĂĄstkaTyp">
   <xsd:restriction base="xsd:decimal">
    <xsd:minInclusive value="0" />
   </xsd:restriction>
  </xsd:simpleType>
 
- <xsd:simpleType name="kódMěnyTyp">
+ <xsd:simpleType name="kĂłdMÄnyTyp">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="CZK"/>
    <xsd:enumeration value="DEM"/>

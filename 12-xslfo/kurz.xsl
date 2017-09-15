@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 version="1.0">
@@ -30,26 +30,26 @@
   </fo:block>
 </xsl:template>
 
-<xsl:template match="název">
+<xsl:template match="nĂˇzev">
   <xsl:apply-templates/>
-  <xsl:if test="following-sibling::podnázev">
+  <xsl:if test="following-sibling::podnĂˇzev">
     &#x2014;
   </xsl:if>
 </xsl:template>
 
-<xsl:template match="podnázev">
+<xsl:template match="podnĂˇzev">
   <fo:inline font-style="italic">
     <xsl:apply-templates/>
   </fo:inline>
 </xsl:template>
 
-<xsl:template match="šedě">
+<xsl:template match="ĹˇedÄ›">
   <fo:inline color="gray">
     <xsl:apply-templates/>
   </fo:inline>
 </xsl:template>
 
-<xsl:template match="zeleně">
+<xsl:template match="zelenÄ›">
   <fo:inline color="green">
     <xsl:apply-templates/>
   </fo:inline>
