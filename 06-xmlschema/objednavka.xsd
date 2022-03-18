@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<xs:element name="objednávka" type="objednavkaTyp"/>
+	<xs:element name="objednávka" type="objednávkaTyp"/>
 
 	<xs:simpleType name="typAdresyTyp">
 		<xs:restriction base="xs:string">
@@ -10,19 +10,19 @@
 		</xs:restriction>
 	</xs:simpleType>
 
-	<xs:complexType name="objednavkaTyp">
+	<xs:complexType name="objednávkaTyp">
 		<xs:sequence>
 			<xs:element name="adresa" type="adresaTyp" maxOccurs="2"/>
 			<xs:element name="doprava" type="xs:string" maxOccurs="unbounded"/>
 			<xs:element name="platba" type="xs:string"/>
 			<xs:element name="přijata" type="xs:date"/>
 			<xs:element name="doručení" type="xs:date"/>
-			<xs:element name="položky" type="položkyType"/>
-			<xs:element name="komentář" type="komentářType"/>
+			<xs:element name="položky" type="položkyTyp"/>
+			<xs:element name="komentář" type="komentářTyp"/>
 		</xs:sequence>
 	</xs:complexType>
 
-	<xs:complexType name="položkyType">
+	<xs:complexType name="položkyTyp">
 		<xs:sequence>
 			<xs:element name="položka" type="položkaTyp" maxOccurs="unbounded"/>
 		</xs:sequence>
@@ -33,12 +33,12 @@
 			<xs:element name="jméno" type="xs:string"/>
 			<xs:element name="ulice" type="xs:string"/>
 			<xs:element name="město" type="xs:string"/>
-			<xs:element name="psč" type="PSCTyp"/>
+			<xs:element name="psč" type="psčTyp"/>
 		</xs:sequence>
 		<xs:attribute name="typ" type="typAdresyTyp"/>
 	</xs:complexType>
 
-	<xs:simpleType name="PSCTyp">
+	<xs:simpleType name="psčTyp">
 		<xs:restriction base="xs:string"/>
 	</xs:simpleType>
 
@@ -49,7 +49,7 @@
 				<xs:complexType>
 					<xs:simpleContent>
 						<xs:extension base="xs:float">
-							<xs:attribute name="mj" type="TypMJ"/>
+							<xs:attribute name="mj" type="typMj"/>
 						</xs:extension>
 					</xs:simpleContent>
 				</xs:complexType>
@@ -69,16 +69,16 @@
 		<xs:attribute name="kód" type="xs:string"/>
 	</xs:complexType>
 
-	<xs:complexType name="komentářType" mixed="true">
+	<xs:complexType name="komentářTyp" mixed="true">
 		<xs:choice maxOccurs="unbounded">
 			<xs:element name="p" type="xs:string"/>
 		</xs:choice>
 	</xs:complexType>
 
-	<xs:simpleType name="TypMJ">
+	<xs:simpleType name="typMj">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="kg|ks"/>
-			<!-- Efektivnější je použít xs:enumeration -->
+			<xs:enumeration value="ks"/>
+			<xs:enumeration value="kg"/>			
 		</xs:restriction>
 	</xs:simpleType>
 
